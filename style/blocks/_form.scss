@@ -1,0 +1,166 @@
+.form {
+  &__subtext {
+    font-size: 20px;
+    font-weight: 350;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    text-align: center;
+
+    @include onDesktop {
+      font-size: 27px;
+      width: max-content;
+      text-align: left;
+    }
+  }
+
+  &__title {
+    margin-bottom: 40px;
+
+    @include onTablet {
+      margin-bottom: 70px;
+    }
+
+    &--conference {
+    margin-bottom: 80px;
+    }
+  }
+  
+  &__form {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    @include onTablet {
+      gap: 70px;
+    }
+
+    @include onDesktop {
+      flex-direction: row;
+      gap: 125px;
+    }
+  }
+
+  &__left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    @include onTablet {
+      margin: 0 auto;
+      width: 70%;
+      gap: 70px;
+    }
+
+    @include onDesktop {
+      width: 50%;
+      gap: 80px;
+    }
+  }
+
+  &__right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    @include onTablet {
+      margin: 0 auto;
+      width: 70%;
+      gap: 70px;
+    }
+
+    @include onDesktop {
+      width: 50%;
+      gap: 80px;
+    }
+  }
+
+  &__style {
+    padding-left: 10px;
+    position: relative;
+    font-size: 16px;
+    font-weight: 350px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid $brown;
+    height: 50px;
+    appearance: none;
+
+    @include onTablet {
+      font-size: 20px;
+    }
+
+    @include onDesktop {
+      font-size: 24px;
+    }
+
+    &:focus {
+      outline: 1px solid $brown;
+    }
+
+    &::placeholder {
+      font-weight: 300px;
+      color: #000;
+    }
+  }
+
+  &__btn {
+    background-color: #fff;
+    border: none;
+    
+  }
+
+  &__label {
+    position: absolute;
+    right: 5%;
+  }
+
+  &__icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  &__date,
+  &__event,
+  &__hall {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  &__button {
+    width: 100%;
+    height: 50px;
+    font-size: 32px;
+    font-weight: 500;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 33px;
+    border: none;
+    color: #fff;
+    background-color: $brown;
+    border: 1px solid $brown;
+    transition: all 0.5s;
+
+    @include onTablet {
+      width: 60%;
+    }
+
+    @include onDesktop {
+      width: 245px;
+      height: 50px;
+      font-size: 32px;
+    }
+
+    &:hover {
+      background-color: #fff;
+      color: $brown;
+    }
+
+
+  }
+}

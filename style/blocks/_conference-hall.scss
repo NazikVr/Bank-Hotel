@@ -1,0 +1,269 @@
+.conference-hall {
+  color: #fff;
+
+  &__bottom {
+    border-radius: 20px;
+    padding: 15px 20px;
+    background-color: rgba($color: $brown, $alpha: 0.6);
+    z-index: 100;
+    color: #fff;
+    font-size: 15px;
+    position: relative;
+    top: 500px;
+
+    @include onSmallTablet {
+      top: 190px;
+    }
+
+    @include onTablet {
+      font-size: 17px;
+      top: 250px;
+    }
+
+    @include onDesktop {
+      top: 30px;
+      font-size: 20px;
+    }
+  }
+
+  &__background {
+    height: 950px;
+    width: 100%;
+    background-image: url(../image/background_slider.jpg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    @include onSmallTablet {
+      height: 1150px;
+    }
+
+    @include onTablet {
+      height: 1300px;
+    }
+
+    @media (min-width: 1100px) {
+      height: 1350px;
+    }
+
+    @include onDesktop {
+      height: 620px;
+    }
+  }
+
+  &__title {
+    color: #000;
+    text-align: center;
+    margin-bottom: 60px;
+
+    @include onTablet {
+      margin-bottom: 85px;
+    }
+  }
+
+  &__tabs {
+    width: 100%;
+    list-style: none;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    @include onTablet {
+      flex-wrap: wrap;
+      height: 300px;
+    }
+
+    @include onDesktop {
+      height: max-content;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+
+  &__tab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    color: #000;
+    border-radius: 33px;
+    transition: all 0.8s ease;
+    cursor: pointer;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 350;
+    margin: 0 auto;
+
+    @include onSmallTablet {
+      width: 60%;
+    }
+
+    @include onTablet {
+      margin: 0 auto 20px;
+      width: 50%;
+    }
+
+    @include onDesktop {
+      width: 25%;
+    }
+
+    &.active {
+      width: 100%;
+      padding: 0 20px;
+      height: 40px;
+      font-size: 16px;
+      font-weight: 700;
+      background-color: $brown;
+      color: #fff;
+
+      @include onSmallTablet {
+        width: 60%;
+      }
+
+      @include onTablet {
+        width: 50%;
+      }
+
+      @include onDesktop {
+        width: 25%;
+      }
+    }
+  }
+
+  &__container {
+    position: relative;
+  }
+
+  &__content {
+    animation: fade 1s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: none;
+
+    &.active {
+      display: block;
+    }
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    @include onDesktop {
+      flex-direction: row;
+    }
+  }
+
+  &__left {
+    display: flex;
+    justify-content: center;
+    height: max-content;
+    width: 100%;
+
+    @include onDesktop {
+      height: 620px;
+      width: 60%;
+    }
+  }
+
+  &__right {
+    width: 100%;
+    height: max-content;
+
+    @include onDesktop {
+      width: 35%;
+      height: 620px;
+      padding-top: 30px;
+    }
+
+    &--conference {
+      padding-top: 10px;
+    }
+  }
+
+  &__button {
+    width: 70%;
+    height: 30px;
+    font-size: 15px;
+    top: -50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 33px;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    background-color: rgba($color: #c2a386, $alpha: 0.7);
+    border: 1px solid $brown;
+    transition: all 0.8s ease;
+    position: relative;
+
+    @include onSmallTablet {
+      width: 70%;
+      height: 65px;
+      font-size: 30px;
+    }
+
+    @include onDesktop {
+      width: 385px;
+    }
+
+    &:hover {
+      color: $brown;
+      background-color: rgba($color: #fff, $alpha: 0.7);
+    }
+  }
+}
+
+.conference-hall__left .swiper-slide {
+  @include onDesktop {
+    height: 620px;
+  }
+}
+.conference-hall__left .swiper-slide img {
+  width: 100%;
+  max-height: 220px;
+  object-fit: cover;
+  object-position: center;
+
+  @include onSmallTablet {
+    max-height: 440px;
+  }
+
+  @include onTablet {
+    max-height: 620px;
+  }
+
+  @include onDesktop {
+    height: 100%;
+  }
+}
+
+.conference-hall__left .swiper-pagination-bullet {
+  position: relative;
+  top: -40px;
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+
+  @include onSmallTablet {
+    top: -75px;
+  }
+
+  @include onTablet {
+    width: 15px;
+    height: 15px;
+  }
+
+  @include onDesktop {
+    width: 25px;
+    height: 25px;
+  }
+}

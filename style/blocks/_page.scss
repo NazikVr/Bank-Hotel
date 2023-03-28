@@ -1,0 +1,79 @@
+.page {
+  font-family: "Josefin Sans", sans-serif;
+
+  &__top {
+    margin-bottom: 50px;
+
+    @include onSmallTablet {
+      margin-bottom: 70px;
+    }
+
+    @include onDesktop {
+      margin-bottom: 110px;
+    }
+  }
+
+  &__conference-hall {
+    margin-bottom: 450px;
+
+    @include onSmallTablet {
+      margin-bottom: 350px;
+    }
+
+    @include onDesktop {
+      margin-bottom: 370px;
+    }
+  }
+
+  &__menu {
+    margin-bottom: 70px;
+
+    @include onSmallTablet {
+      margin-bottom: 100px;
+    }
+
+    @include onDesktop {
+      margin-bottom: 155px;
+    }
+  }
+
+  &__projects {
+    margin-bottom: 70px;
+
+    @include onTablet {
+      margin-bottom: 100px;
+    }
+
+    @include onDesktop {
+      margin-bottom: 155px;
+    }
+  }
+
+  &__form {
+    margin-bottom: 50px;
+
+    @include onSmallTablet {
+      margin-bottom: 70px;
+    }
+
+    @include onDesktop {
+      margin-bottom: 110px;
+    }
+  }
+
+  &__propose {
+    margin-bottom: 70px;
+
+    @include onTablet {
+      margin-bottom: 100px;
+    }
+
+    @include onDesktop {
+      margin-bottom: 145px;
+    }
+  }
+
+  &__placement-scheme {
+    margin: 0 0 100px;
+  }
+}

@@ -566,16 +566,16 @@
   }
 }
 .page__conference-hall {
-  margin-bottom: 450px;
+  margin-bottom: 100px;
 }
 @media (min-width: 550px) {
   .page__conference-hall {
-    margin-bottom: 350px;
+    margin-bottom: 150px;
   }
 }
 @media (min-width: 1260px) {
   .page__conference-hall {
-    margin-bottom: 370px;
+    margin-bottom: 200px;
   }
 }
 .page__menu {
@@ -1408,7 +1408,7 @@
   }
 }
 .conference-hall__background {
-  height: 950px;
+  height: 850px;
   width: 100%;
   background-image: url(../image/background_slider.jpg.png);
   background-position: center;
@@ -1417,15 +1417,15 @@
 }
 @media (min-width: 550px) {
   .conference-hall__background {
-    height: 1150px;
+    height: 1000px;
   }
 }
 @media (min-width: 780px) {
   .conference-hall__background {
-    height: 1300px;
+    height: 1200px;
   }
 }
-@media (min-width: 1100px) {
+@media (min-width: 990px) {
   .conference-hall__background {
     height: 1350px;
   }
@@ -1500,13 +1500,31 @@
   animation: fade 1s ease;
 }
 .conference-hall__wrapper {
+  padding-bottom: 50px;
+  height: 850px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
 }
+@media (min-width: 550px) {
+  .conference-hall__wrapper {
+    height: 1000px;
+  }
+}
+@media (min-width: 780px) {
+  .conference-hall__wrapper {
+    height: 1200px;
+  }
+}
+@media (min-width: 990px) {
+  .conference-hall__wrapper {
+    height: 1350px;
+  }
+}
 @media (min-width: 1260px) {
   .conference-hall__wrapper {
     flex-direction: row;
+    height: 620px;
   }
 }
 .conference-hall__left {
@@ -1657,7 +1675,8 @@
 }
 .scheme__flex-wraper-all {
   position: relative;
-  top: -25%;
+  top: 30px;
+  align-self: start;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -1785,9 +1804,9 @@
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  font-size: 30px;
-  width: 80%;
-  height: 60px;
+  font-size: 20px;
+  width: 50%;
+  height: 40px;
   letter-spacing: 2px;
   font-weight: 700;
   color: #fff;
@@ -1850,15 +1869,15 @@
   color: #c09b78 !important;
 }
 .menu__menu {
-  width: 100%;
+  width: 80%;
   display: flex;
   justify-content: space-around;
 }
 .menu__menu--link {
   text-decoration: none;
   color: #fff;
-  background-color: rgba(192, 155, 120, 0.7);
-  width: 30%;
+  background-color: rgba(192, 155, 120, 0);
+  width: 45%;
   height: 40px;
   font-size: 20px;
   font-weight: 500;
@@ -1866,18 +1885,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #c09b78;
+  border: 2px solid #c09b78;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 .menu__menu--link:hover {
-  background-color: rgba(255, 255, 255, 0.95);
-  color: #c09b78;
+  background-color: rgba(192, 155, 120, 0.95);
+  color: #fff;
 }
 .menu__left--wedding {
-  background-image: url(../image/menu-wedding/wedding.jpg);
+  background-image: url(../image/menu-wedding/left.png);
 }
 .menu__left--conference {
-  background-image: url(../image/menu-conference/coffe.jpg);
+  background-image: url(../image/menu-conference/left.png);
 }
 .menu__left {
   background-size: cover;
@@ -1912,10 +1931,10 @@
   }
 }
 .menu__rigth--wedding {
-  background-image: url(../image/menu-wedding/banquet.jpg);
+  background-image: url(../image/menu-wedding/right.png);
 }
 .menu__rigth--conference {
-  background-image: url(../image/menu-conference/buffet-2.jpg);
+  background-image: url(../image/menu-conference/right.png);
 }
 .menu__wraper {
   display: flex;

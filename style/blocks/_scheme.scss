@@ -41,8 +41,10 @@
   }
 
   &__flex-wraper-all {
+    
     position: relative;
-    top: -25%;
+    top: 30px;
+    align-self: start;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -182,9 +184,9 @@
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    font-size: 30px;
-    width: 80%;
-    height: 60px;
+    font-size: 20px;
+    width: 50%;
+    height: 40px;
     letter-spacing: 2px;
     font-weight: 700;
     color: #fff;

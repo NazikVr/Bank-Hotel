@@ -27,7 +27,7 @@
   }
 
   &__background {
-    height: 950px;
+    height: 850px;
     width: 100%;
     background-image: url(../image/background_slider.jpg.png);
     background-position: center;
@@ -35,14 +35,14 @@
     background-repeat: no-repeat;
 
     @include onSmallTablet {
-      height: 1150px;
+      height: 1000px;
     }
 
     @include onTablet {
-      height: 1300px;
+      height: 1200px;
     }
 
-    @media (min-width: 1100px) {
+    @media (min-width: 990px) {
       height: 1350px;
     }
 
@@ -148,12 +148,27 @@
   }
 
   &__wrapper {
+    padding-bottom: 50px;
+    height: 850px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
 
+    @include onSmallTablet {
+      height: 1000px;
+    }
+
+    @include onTablet {
+      height: 1200px;
+    }
+
+    @media (min-width: 990px) {
+      height: 1350px;
+    }
+
     @include onDesktop {
       flex-direction: row;
+      height: 620px;
     }
   }
 

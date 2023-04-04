@@ -1,14 +1,14 @@
 .menu {
   &__menu {
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: space-around;
 
     &--link {
       text-decoration: none;
       color: #fff;
-      background-color: rgba(192,155,120, 0.7);
-      width: 30%;
+      background-color: rgba(192,155,120, 0);
+      width: 45%;
       height: 40px;
       font-size: 20px;
       font-weight: 500;
@@ -16,22 +16,22 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      border: 1px solid $brown;
+      border: 2px solid $brown;
       transition: background-color 0.3s ease, color 0.3s ease;
 
       &:hover {
-        background-color: rgba($color: #fff, $alpha: 0.95);
-        color: $brown;
+        background-color: rgba($color: $brown, $alpha: 0.95);
+        color: #fff;
       }
     }
   }
 
   &__left--wedding {
-    background-image: url(../image/menu-wedding/wedding.jpg);
+    background-image: url(../image/menu-wedding/left.png);
   }
   
   &__left--conference {
-    background-image: url(../image/menu-conference/coffe.jpg);
+    background-image: url(../image/menu-conference/left.png);
     
   }
 
@@ -70,11 +70,11 @@
   }
 
   &__rigth--wedding {
-    background-image: url(../image/menu-wedding/banquet.jpg);
+    background-image: url(../image/menu-wedding/right.png);
   }
   
   &__rigth--conference {
-    background-image: url(../image/menu-conference/buffet-2.jpg);
+    background-image: url(../image/menu-conference/right.png);
   }
 
   &__wraper {

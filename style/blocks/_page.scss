@@ -22,14 +22,14 @@
   }
 
   &__conference-hall {
-    margin-bottom: 450px;
+    margin-bottom: 100px;
 
     @include onSmallTablet {
-      margin-bottom: 350px;
+      margin-bottom: 150px;
     }
 
     @include onDesktop {
-      margin-bottom: 370px;
+      margin-bottom: 200px;
     }
   }
 

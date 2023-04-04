@@ -61,6 +61,12 @@
     margin-bottom: 10px;
     text-align: center;
 
+    &--lounge {
+      font-size: 33px;
+      text-align: center;
+      font-weight: 700;
+    }
+
     @include onDesktop {
       text-align: left;
     }
@@ -128,6 +134,13 @@
     font-weight: 350;
     font-size: 18px;
     text-align: center;
+    
+    &--lounge {
+      text-align: center;
+      font-size: 19px;
+      line-height: 70px;
+      font-weight: 550;
+    }
 
     @include onDesktop {
       text-align: left;
@@ -197,55 +210,49 @@
     }
   }
 
-  // &__tabs {
-  //   list-style: none;
-  //   display: flex;
-  //   justify-content: space-around;
-  //   text-transform: uppercase;
-  //   margin-bottom: 45px;
+  &__tabs {
+    list-style: none;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+    
+    justify-content: space-between;
 
-  //   @include onDesktop {
-  //     justify-content: space-between;
-  //     margin-bottom: 20px;
-  //   }
-  // }
+    @include onDesktop {
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+  }
+  &__tab-wraper {
+    width: 29%;
+  }
+  &__tab { 
+    width: 100% !important;
+    cursor: pointer;
+    padding: 10px 20px!important;
+    border-radius: 30px !important;
+    text-transform: uppercase;
 
-  // &__tab {
-  //   display: flex;
-  //   align-items: center;
-  //   justify-content: center;
-  //   cursor: pointer;
-  //   padding: 10px 20px;
-  //   border-radius: 30px;
+    color: #fff !important;
+    background-color: rgba($color: #fff, $alpha: 0) !important;
+    border: 2px solid #fff !important;
+    transition: all 0.8s ease !important;
+    font-weight: 600 !important;
+    font-size: 13px !important;
 
-  //   color: $brown;
-  //   background-color: rgba($color: #fff, $alpha: 0.7);
-  //   border: 2px solid $brown;
-  //   transition: all 0.8s ease;
-  //   font-weight: 600;
-  //   font-size: 17px;
+    @include onDesktop {
+      padding: 5px 10px !important;
+      font-size: 10px !important;
+    }
+  }
 
-  //   @include onDesktop {
-  //     padding: 5px 10px;
-  //     font-size: 15px;
-  //   }
+  &__tab.active {
+    border: 2px solid $brown !important;
+    color: $brown !important;
+  }
 
-  //   &:hover {
-  //     background-color: #fff;
-  //   }
-  // }
+  &__content {
+  }
 
-  // &__tab.active {
-  //   background-color: rgba($color: #c2a386, $alpha: 0.7);
-  //   color: #fff;
-  // }
-
-  // &__content {
-  //   display: none;
-  // }
-
-  // &__content.active {
-  //   display: block;
-  //   animation: fade 1s ease;
-  // }
+  &__content.active {
+  }
 }

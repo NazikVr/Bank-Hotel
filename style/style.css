@@ -2309,4 +2309,22 @@ body {
   -moz-transform-origin: 0 0;
 }
 
+#ui-datepicker-div {
+  position: relative !important;
+  top: -1000px !important;
+  left: 100px !important;
+}
+@media (min-width: 780px) {
+  #ui-datepicker-div {
+    top: -1130px !important;
+    left: 200px !important;
+  }
+}
+@media (min-width: 1260px) {
+  #ui-datepicker-div {
+    left: 300px !important;
+    top: -850px !important;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

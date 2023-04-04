@@ -1435,6 +1435,34 @@
     height: 620px;
   }
 }
+.conference-hall__background--wedding {
+  height: 850px;
+  width: 100%;
+  background-image: url(../image/background_slider.jpg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media (min-width: 550px) {
+  .conference-hall__background--wedding {
+    height: 1100px;
+  }
+}
+@media (min-width: 780px) {
+  .conference-hall__background--wedding {
+    height: 1300px;
+  }
+}
+@media (min-width: 990px) {
+  .conference-hall__background--wedding {
+    height: 1350px;
+  }
+}
+@media (min-width: 1260px) {
+  .conference-hall__background--wedding {
+    height: 620px;
+  }
+}
 .conference-hall__title {
   color: #000;
   text-align: center;
@@ -1448,10 +1476,10 @@
 .conference-hall__tabs {
   width: 100%;
   list-style: none;
-  margin-bottom: 50px !important;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  margin-bottom: 50px !important;
 }
 @media (min-width: 780px) {
   .conference-hall__tabs {
@@ -1477,7 +1505,12 @@
   height: 40px !important;
   font-size: 20px !important;
   font-weight: 500 !important;
-  margin: 0 auto !important;
+  margin: 0 auto 20px !important;
+}
+@media (min-width: 550px) {
+  .conference-hall__tab {
+    margin: 0 auto 20px !important;
+  }
 }
 @media (min-width: 780px) {
   .conference-hall__tab {

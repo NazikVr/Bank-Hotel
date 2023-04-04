@@ -42,3 +42,21 @@ $(document).ready(function () {
     ]
   });
 });
+
+document.getElementById("pills-home-tab").addEventListener("click", function() {
+  document.getElementById("b-1").style.display = "block";
+  document.getElementById("b-2").style.display = "none";
+  document.getElementById("b-3").style.display = "none";
+});
+
+document.getElementById("pills-profile-tab").addEventListener("click", function() {
+  document.getElementById("b-1").style.display = "none";
+  document.getElementById("b-2").style.display = "block";
+  document.getElementById("b-3").style.display = "none";
+});
+
+document.getElementById("pills-contact-tab").addEventListener("click", function() {
+  document.getElementById("b-1").style.display = "none";
+  document.getElementById("b-2").style.display = "none";
+  document.getElementById("b-3").style.display = "block";
+});

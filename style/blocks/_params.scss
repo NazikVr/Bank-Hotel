@@ -12,7 +12,6 @@
     }
 
     @include onDesktop {
-      margin-bottom: 165px;
       flex-direction: row;
       flex-wrap: nowrap;
     }
@@ -53,9 +52,11 @@
   }
 
   &__squere {
+    height: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
 
     &--image {
       width: 70px;
@@ -69,7 +70,9 @@
 
     &--number {
       display: block;
-      margin-bottom: 20px;
+      font-size: 70px;
+      font-weight: 700;
+      color: $brown;
     }
 
     &--text {
@@ -79,9 +82,11 @@
   }
 
   &__people {
+    height: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
 
     &--image {
       background-image: url(../image/presentation.png);
@@ -95,7 +100,9 @@
 
     &--number {
       display: block;
-      margin-bottom: 20px;
+      font-size: 70px;
+      font-weight: 700;
+      color: $brown;
     }
 
     &--text {
@@ -105,9 +112,11 @@
   }
 
   &__squere-big {
+    height: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
 
     &--image {
       background-image: url(../image/area.png);
@@ -121,7 +130,11 @@
 
     &--number {
       display: block;
-      margin-bottom: 20px;
+      font-size: 70px;
+      font-weight: 700;
+      color: $brown;
+      // display: block;
+      // margin-bottom: 20px;
     }
     &--text {
       font-weight: 350;
@@ -135,9 +148,11 @@
   }
 
   &__halls {
+    height: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
 
     &--image {
       background-image: url(../image/blockchain.png);
@@ -151,11 +166,20 @@
 
     &--number {
       display: block;
-      margin-bottom: 20px;
+      font-size: 70px;
+      font-weight: 700;
+      color: $brown;
     }
     &--text {
       font-weight: 350;
       font-size: 25px;
     }
+  }
+  &__bottom {
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+    font-weight: 500;
+    font-size: 25px;
   }
 }

@@ -8,8 +8,8 @@
     z-index: 100;
     color: #fff;
     font-size: 15px;
-    position: relative;
-    top: 500px;
+    position: absolute;
+    top: -500px;
 
     @include onSmallTablet {
       top: 190px;
@@ -91,8 +91,8 @@
     transition: all 0.8s ease;
     cursor: pointer;
     height: 40px;
-    font-size: 14px;
-    font-weight: 350;
+    font-size: 20px;
+    font-weight: 500;
     margin: 0 auto;
 
     @include onSmallTablet {
@@ -112,7 +112,7 @@
       width: 100%;
       padding: 0 20px;
       height: 40px;
-      font-size: 16px;
+      font-size: 22px;
       font-weight: 700;
       background-color: $brown;
       color: #fff;
@@ -137,15 +137,15 @@
 
   &__content {
     animation: fade 1s ease;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    display: none;
+    // position: absolute;
+    // top: 0;
+    // left: 0;
+    // right: 0;/
+    // display: none;
 
-    &.active {
-      display: block;
-    }
+    // &.active {
+    //   display: block;
+    // }
   }
 
   &__wrapper {

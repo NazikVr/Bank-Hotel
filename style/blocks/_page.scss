@@ -1,6 +1,14 @@
 .page {
   font-family: "Josefin Sans", sans-serif;
 
+  &__params {
+    margin-bottom: 70px;
+    
+    @include onDesktop {
+      margin-bottom: 165px;
+    }
+  }
+
   &__top {
     margin-bottom: 50px;
 

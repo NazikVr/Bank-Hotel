@@ -28,7 +28,7 @@
 
     <section class="top page__top">
       <div class="container">
-        <h1 class="top__title">conference hall</h1>
+        <h1 class="top__title">art congress hall</h1>
         <div class="grid grid--desktop">
           <div class="top__left grid__item grid__item--desktop-1-9">
             <h3 class="top__subtitle">
@@ -37,7 +37,7 @@
               для проведення конференцій та івентів будь-якого
               формату.
               <br>
-              8 незалежних конференц-залів, високотехнологічне обладнання.
+              7 незалежних конференц-залів, високотехнологічне обладнання.
             </h3>
             <a href="#" class="top__button">
               замовити подію
@@ -57,7 +57,7 @@
       </div>
     </section>
 
-    <section class="params">
+    <section class="params page__params">
       <div class="container">
         <div class="title params__title">
           <div class="title__before-line"></div>
@@ -67,29 +67,40 @@
         <div class="params__wraper">
           <div class="params__squere params__el">
             <div class="params__squere--image"></div>
-            <img src="image/500м2.png" alt="500" class="params__squere--number">
+            <div class="params__squere-big--number">500 <span style="font-size: 50px; font-weight: 500;">м&sup2</span>
+            </div>
+            <!-- <img src="image/500м2.png" alt="500" class="params__squere--number"> -->
             <div class="params__squere--text">Площа всіх залів</div>
           </div>
           <div class="params__people params__el">
             <div class="params__people--image"></div>
-            <img src="image/270.png" alt="270" class="params__people--number">
+            <div class="params__people--number">270 <span style="font-size: 50px; font-weight: 500;">осіб</span></div>
+            <!-- <img src="image/270.png" alt="270" class="params__people--number"> -->
             <div class="params__people--text">Найбільший зал</div>
           </div>
           <div class="params__squere-big params__el">
             <div class="params__squere-big--image"></div>
-            <img src="image/320м2.png" alt="320" class="params__squere-big--number">
+            <div class="params__squere-big--number">320 <span style="font-size: 50px; font-weight: 500;">м&sup2</span>
+            </div>
+            <!-- <img src="image/320м2.png" alt="320" class="params__squere-big--number"> -->
             <div class="params__squere-big--text">Площа найбільшого залу</div>
           </div>
           <div class="params__halls params__el">
             <div class="params__halls--image"></div>
-            <img src="image/8.png" alt="8" class="params__halls--number">
+            <div class="params__halls--number">7</div>
+            <!-- <img src="image/8.png" alt="8" class="params__halls--number"> -->
             <div class="params__halls--text">Незалежних залів</div>
           </div>
+        </div>
+        <div class="params__bottom">
+          Функціональна особливість даного конгрес-холу у мобільних перегородках за допомогою яких можна утворити 7
+          незалежних конференц-залів площею від 30м.кв і місткістю кожного в залежності від Ваших потреб від 12 до 270
+          осіб.
         </div>
       </div>
     </section>
 
-    <section class="conference-hall page__conference-hall">
+    <section class="conference-hall page__conference-hall" hidden>
       <div class="container">
         <div class="conference-hall__title">
           <div class="title params__title">
@@ -109,6 +120,7 @@
           <li class="conference-hall__tab">Конференц-секція E</li>
           <li class="conference-hall__tab">Конференц-секція F</li>
           <li class="conference-hall__tab">Конференц-секція G</li>
+          <li class="conference-hall__tab">Lounge zone</li>
         </ul>
       </div>
       <div class="conference-hall__background">
@@ -1165,8 +1177,1041 @@
                 </div>
               </div>
             </article>
+
+            <article class="conference-hall__content active">
+              <div class="conference-hall__wrapper">
+                <div class="conference-hall__left">
+                  <div class="swiper mySwiper2">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="./image/conference-halls/lounge/atrium.jpg">
+                        <!-- <a href="#" class="conference-hall__button">замовити зал</a> -->
+                      </div>
+
+                      <!-- <div class="swiper-slide">
+                        <img src="./image/slide3.jpg">
+                        <a href="#" class="conference-hall__button">замовити зал</a>
+                      </div> -->
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+                </div>
+                <div class="conference-hall__right conference-hall__right--conference scheme">
+
+                </div>
+              </div>
+            </article>
           </main>
         </div>
+      </div>
+    </section>
+
+    <section class="conference-hall page__conference-hall">
+      <div class="container">
+        <div class="conference-hall__title">
+          <div class="title params__title">
+            <div class="title__before-line"></div>
+            <h2 class="title__text">Перелік залів</h2>
+            <div class="title__after-line"></div>
+          </div>
+        </div>
+
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-conference"
+              type="button" role="tab" aria-controls="pills-home" aria-selected="true">Конгрес-хол</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-vip"
+              type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Vip-Кімната</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-conference-a"
+              type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Конференц-секція A</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-conference-b"
+              type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Конференц-секція B</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-conference-c"
+              type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Конференц-секція C</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-conference-d"
+              type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Конференц-секція D</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-conference-e"
+              type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Конференц-секція E</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-conference-f"
+              type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Конференц-секція F</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-conference-g"
+              type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Конференц-секція G</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-lounge"
+              type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Lounge zone</button>
+          </li>
+        </ul>
+
+        <div class="conference-hall__background">
+          <div class="container">
+            <main class="conference-hall__container">
+              <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-conference" role="tabpanel"
+                  aria-labelledby="pills-home-tab">
+                  <article class="conference-hall__content">
+                    <div class="conference-hall__wrapper">
+                      <div class="conference-hall__left">
+                        <div class="swiper mySwiper2">
+                          <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                              <img src="./image/conference-halls/congress/slide-1.jpg" alt="slide1">
+                            </div>
+                            <div class="swiper-slide">
+                              <img src="./image/conference-halls/congress/slide-2.jpg" alt="slide1">
+                            </div>
+                          </div>
+                          <div class="swiper-pagination"></div>
+                        </div>
+
+                      </div>
+                      <div class="conference-hall__right scheme">
+
+                        <div class="scheme__title scheme__title--conference">Конгрес-Хол</div>
+
+                        <div class="scheme__content--visible">
+                          <div class="scheme__top scheme__top--conference">
+                            <picture>
+                              <source media="(max-width: 550px)" srcset="image/scheme_1.png" width="160px"
+                                height="240px">
+                              <img src="image/scheme_1.png" alt="схема залу" width="240px" height="340px">
+                            </picture>
+                            <div class="scheme__flex-wraper-all">
+                              <div class="scheme__flex-wraper">
+                                <img src="image/area_white.png" alt="area" width="35px" height="35px">
+                                <div class="scheme__count">500 м&sup2</div>
+                              </div>
+                              <div class="scheme__flex-wraper">
+                                <img src="image/people.png" alt="people" width="25px" height="25px">
+                                <div class="scheme__count">270 осіб</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <a href="#" class="scheme__btn">замовити</a>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="tab-pane fade" id="pills-vip" role="tabpanel" aria-labelledby="pills-profile-tab">
+                  <article class="conference-hall__content">
+                    <div class="conference-hall__wrapper">
+                      <div class="conference-hall__left">
+                        <div class="swiper mySwiper2">
+                          <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                              <img src="./image/conference-halls/vip/slide-1.jpg">
+                            </div>
+                          </div>
+                          <div class="swiper-pagination"></div>
+                        </div>
+                      </div>
+
+                      <div class="conference-hall__right scheme">
+                        <div class="scheme__title scheme__title--conference">VIP-Кімната</div>
+
+                        <div class="scheme__content--visible">
+                          <div class="scheme__top scheme__top--conference">
+                            <picture>
+                              <source media="(max-width: 550px)" srcset="image/scheme_1.png" width="160px"
+                                height="240px">
+                              <img src="image/scheme_1.png" alt="схема залу" width="240px" height="340px">
+                            </picture>
+                            <div class="scheme__flex-wraper-all">
+                              <div class="scheme__flex-wraper">
+                                <img src="image/area_white.png" alt="area" width="35px" height="35px">
+                                <div class="scheme__count">34 м&sup2</div>
+                              </div>
+                              <div class="scheme__flex-wraper">
+                                <img src="image/people.png" alt="people" width="35px" height="25px">
+                                <div class="scheme__count">13 осіб</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <a href="#" class="scheme__btn">замовити</a>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="tab-pane fade" id="pills-conference-a" role="tabpanel" aria-labelledby="pills-contact-tab">
+                  <article class="conference-hall__content">
+                    <div class="conference-hall__wrapper">
+                      <div class="conference-hall__left">
+                        <div class="swiper mySwiper2">
+                          <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                              <img src="./image/conference-halls/А/slide-1.jpg">
+                            </div>
+                          </div>
+                          <div class="swiper-pagination"></div>
+                        </div>
+
+                      </div>
+                      <div class="conference-hall__right conference-hall__right--conference scheme">
+
+                        <div class="scheme__title scheme__title--conference">Конференц-секція A</div>
+
+                        <h2 class="scheme__tabs-title">
+                          Оберіть тип розсадки:
+                        </h2>
+
+                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                              data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                              aria-selected="true">театр</button>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                              data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                              aria-selected="false">круглий стіл</button>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                              data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                              aria-selected="false">клас</button>
+                          </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                          <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                            aria-labelledby="pills-home-tab">
+                            <div class="scheme__content">
+                              <div class="scheme__top scheme__top--conference">
+                                <picture>
+                                  <source media="(max-width: 550px)" srcset="image/conference-halls/scheme/theatre.png"
+                                    width="160px" height="240px">
+                                  <img src="image/conference-halls/scheme/theatre.png" alt="схема залу" width="240px"
+                                    height="340px">
+                                </picture>
+                                <div class="scheme__flex-wraper-all">
+                                  <div class="scheme__flex-wraper">
+                                    <img src="image/area_white.png" alt="area" width="35px" height="35px">
+                                    <div class="scheme__count">90 м&sup2</div>
+                                  </div>
+                                  <div class="scheme__flex-wraper">
+                                    <img src="image/people.png" alt="people" width="35px" height="25px">
+                                    <div class="scheme__count">70 осіб</div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                            aria-labelledby="pills-profile-tab">
+                            <div class="scheme__content">
+                              <div class="scheme__top scheme__top--conference">
+                                <picture>
+                                  <source media="(max-width: 550px)" srcset="image/conference-halls/scheme/round.png"
+                                    width="160px" height="240px">
+                                  <img src="image/conference-halls/scheme/round.png" alt="схема залу" width="240px"
+                                    height="340px">
+                                </picture>
+                                <div class="scheme__flex-wraper-all">
+                                  <div class="scheme__flex-wraper">
+                                    <img src="image/area_white.png" alt="area" width="35px" height="35px">
+                                    <div class="scheme__count">90 м&sup2</div>
+                                  </div>
+                                  <div class="scheme__flex-wraper">
+                                    <img src="image/people.png" alt="people" width="35px" height="25px">
+                                    <div class="scheme__count">25 осіб</div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="tab-pane fade" id="pills-contact" role="tabpanel"
+                            aria-labelledby="pills-contact-tab">
+                            <div class="scheme__content">
+                              <div class="scheme__top scheme__top--conference">
+                                <picture>
+                                  <source media="(max-width: 550px)" srcset="image/conference-halls/scheme/class.png"
+                                    width="160px" height="240px">
+                                  <img src="image/conference-halls/scheme/class.png" alt="схема залу" width="240px"
+                                    height="340px">
+                                </picture>
+                                <div class="scheme__flex-wraper-all">
+                                  <div class="scheme__flex-wraper">
+                                    <img src="image/area_white.png" alt="area" width="35px" height="35px">
+                                    <div class="scheme__count">90 м&sup2</div>
+                                  </div>
+                                  <div class="scheme__flex-wraper">
+                                    <img src="image/people.png" alt="people" width="35px" height="25px">
+                                    <div class="scheme__count">20 осіб</div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <a href="#" class="scheme__btn">замовити</a>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="tab-pane fade" id="pills-conference-b" role="tabpanel" aria-labelledby="pills-contact-tab">
+                  <article class="conference-hall__content active">
+                    <div class="conference-hall__wrapper">
+                      <div class="conference-hall__left">
+                        <div class="swiper mySwiper2">
+                          <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                              <img src="./image/conference-halls/B/slide-1.jpg">
+                            </div>
+                            <div class="swiper-slide">
+                              <img src="./image/conference-halls/B/slide-2.jpg">
+                            </div>
+                            <div class="swiper-slide">
+                              <img src="./image/conference-halls/B/slide-3.jpg">
+                            </div>
+                            <div class="swiper-slide">
+                              <img src="./image/conference-halls/B/slide-4.jpg">
+                            </div>
+                          </div>
+                          <div class="swiper-pagination"></div>
+                        </div>
+
+                      </div>
+                      <div class="conference-hall__right conference-hall__right--conference scheme">
+
+                        <div class="scheme__title scheme__title--conference">Конференц-секція B</div>
+
+                        <h2 class="scheme__tabs-title">
+                          Оберіть тип розсадки:
+                        </h2>
+
+                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-home2-tab" data-bs-toggle="pill"
+                              data-bs-target="#pills-home2" type="button" role="tab" aria-controls="pills-home"
+                              aria-selected="true">театр</button>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-profile2-tab" data-bs-toggle="pill"
+                              data-bs-target="#pills-profile2" type="button" role="tab" aria-controls="pills-profile"
+                              aria-selected="false">круглий стіл</button>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-contact2-tab" data-bs-toggle="pill"
+                              data-bs-target="#pills-contact2" type="button" role="tab" aria-controls="pills-contact"
+                              aria-selected="false">клас</button>
+                          </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                          <div class="tab-pane fade show active" id="pills-home2" role="tabpanel"
+                            aria-labelledby="pills-home2-tab">
+                            <div class="scheme__content">
+                              <div class="scheme__top scheme__top--conference">
+                                <picture>
+                                  <source media="(max-width: 550px)" srcset="image/conference-halls/scheme/theatre.png"
+                                    width="160px" height="240px">
+                                  <img src="image/conference-halls/scheme/theatre.png" alt="схема залу" width="240px"
+                                    height="340px">
+                                </picture>
+                                <div class="scheme__flex-wraper-all">
+                                  <div class="scheme__flex-wraper">
+                                    <img src="image/area_white.png" alt="area" width="35px" height="35px">
+                                    <div class="scheme__count">90 м&sup2</div>
+                                  </div>
+                                  <div class="scheme__flex-wraper">
+                                    <img src="image/people.png" alt="people" width="35px" height="25px">
+                                    <div class="scheme__count">70 осіб</div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="tab-pane fade" id="pills-profile2" role="tabpanel"
+                            aria-labelledby="pills-profile2-tab">
+                            <div class="scheme__content">
+                              <div class="scheme__top scheme__top--conference">
+                                <picture>
+                                  <source media="(max-width: 550px)" srcset="image/conference-halls/scheme/round.png"
+                                    width="160px" height="240px">
+                                  <img src="image/conference-halls/scheme/round.png" alt="схема залу" width="240px"
+                                    height="340px">
+                                </picture>
+                                <div class="scheme__flex-wraper-all">
+                                  <div class="scheme__flex-wraper">
+                                    <img src="image/area_white.png" alt="area" width="35px" height="35px">
+                                    <div class="scheme__count">90 м&sup2</div>
+                                  </div>
+                                  <div class="scheme__flex-wraper">
+                                    <img src="image/people.png" alt="people" width="35px" height="25px">
+                                    <div class="scheme__count">25 осіб</div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="tab-pane fade" id="pills-contact2" role="tabpanel"
+                            aria-labelledby="pills-contact2-tab">
+                            <div class="scheme__content">
+                              <div class="scheme__top scheme__top--conference">
+                                <picture>
+                                  <source media="(max-width: 550px)" srcset="image/conference-halls/scheme/class.png"
+                                    width="160px" height="240px">
+                                  <img src="image/conference-halls/scheme/class.png" alt="схема залу" width="240px"
+                                    height="340px">
+                                </picture>
+                                <div class="scheme__flex-wraper-all">
+                                  <div class="scheme__flex-wraper">
+                                    <img src="image/area_white.png" alt="area" width="35px" height="35px">
+                                    <div class="scheme__count">90 м&sup2</div>
+                                  </div>
+                                  <div class="scheme__flex-wraper">
+                                    <img src="image/people.png" alt="people" width="35px" height="25px">
+                                    <div class="scheme__count">20 осіб</div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <a href="#" class="scheme__btn">замовити</a>
+
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="tab-pane fade" id="pills-conference-c" role="tabpanel" aria-labelledby="pills-contact-tab">
+                  <article class="conference-hall__content active">
+                    <div class="conference-hall__wrapper">
+                      <div class="conference-hall__left">
+                        <div class="swiper mySwiper2">
+                          <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                              <img src="./image/conference-halls/С/slide-1.jpg">
+                            </div>
+                          </div>
+                          <div class="swiper-pagination"></div>
+                        </div>
+
+                      </div>
+                      <div class="conference-hall__right conference-hall__right--conference scheme">
+
+                        <div class="scheme__title scheme__title--conference">Конференц-секція C</div>
+
+                        <h2 class="scheme__tabs-title">
+                          Оберіть тип розсадки:
+                        </h2>
+
+                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-home2-tab" data-bs-toggle="pill"
+                              data-bs-target="#pills-home2" type="button" role="tab" aria-controls="pills-home"
+                              aria-selected="true">театр</button>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-profile2-tab" data-bs-toggle="pill"
+                              data-bs-target="#pills-profile2" type="button" role="tab" aria-controls="pills-profile"
+                              aria-selected="false">круглий стіл</button>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-contact2-tab" data-bs-toggle="pill"
+                              data-bs-target="#pills-contact2" type="button" role="tab" aria-controls="pills-contact"
+                              aria-selected="false">клас</button>
+                          </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                          <div class="tab-pane fade show active" id="pills-home2" role="tabpanel"
+                            aria-labelledby="pills-home2-tab">
+                            <div class="scheme__content">
+                              <div class="scheme__top scheme__top--conference">
+                                <picture>
+                                  <source media="(max-width: 550px)" srcset="image/conference-halls/scheme/theatre.png"
+                                    width="160px" height="240px">
+                                  <img src="image/conference-halls/scheme/theatre.png" alt="схема залу" width="240px"
+                                    height="340px">
+                                </picture>
+                                <div class="scheme__flex-wraper-all">
+                                  <div class="scheme__flex-wraper">
+                                    <img src="image/area_white.png" alt="area" width="35px" height="35px">
+                                    <div class="scheme__count">90 м&sup2</div>
+                                  </div>
+                                  <div class="scheme__flex-wraper">
+                                    <img src="image/people.png" alt="people" width="35px" height="25px">
+                                    <div class="scheme__count">70 осіб</div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="tab-pane fade" id="pills-profile2" role="tabpanel"
+                            aria-labelledby="pills-profile2-tab">
+                            <div class="scheme__content">
+                              <div class="scheme__top scheme__top--conference">
+                                <picture>
+                                  <source media="(max-width: 550px)" srcset="image/conference-halls/scheme/round.png"
+                                    width="160px" height="240px">
+                                  <img src="image/conference-halls/scheme/round.png" alt="схема залу" width="240px"
+                                    height="340px">
+                                </picture>
+                                <div class="scheme__flex-wraper-all">
+                                  <div class="scheme__flex-wraper">
+                                    <img src="image/area_white.png" alt="area" width="35px" height="35px">
+                                    <div class="scheme__count">90 м&sup2</div>
+                                  </div>
+                                  <div class="scheme__flex-wraper">
+                                    <img src="image/people.png" alt="people" width="35px" height="25px">
+                                    <div class="scheme__count">25 осіб</div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="tab-pane fade" id="pills-contact2" role="tabpanel"
+                            aria-labelledby="pills-contact2-tab">
+                            <div class="scheme__content">
+                              <div class="scheme__top scheme__top--conference">
+                                <picture>
+                                  <source media="(max-width: 550px)" srcset="image/conference-halls/scheme/class.png"
+                                    width="160px" height="240px">
+                                  <img src="image/conference-halls/scheme/class.png" alt="схема залу" width="240px"
+                                    height="340px">
+                                </picture>
+                                <div class="scheme__flex-wraper-all">
+                                  <div class="scheme__flex-wraper">
+                                    <img src="image/area_white.png" alt="area" width="35px" height="35px">
+                                    <div class="scheme__count">90 м&sup2</div>
+                                  </div>
+                                  <div class="scheme__flex-wraper">
+                                    <img src="image/people.png" alt="people" width="35px" height="25px">
+                                    <div class="scheme__count">20 осіб</div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <a href="#" class="scheme__btn">замовити</a>
+
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="tab-pane fade" id="pills-conference-d" role="tabpanel" aria-labelledby="pills-contact-tab">
+                  <article class="conference-hall__content active">
+                    <div class="conference-hall__wrapper">
+                      <div class="conference-hall__left">
+                        <div class="swiper mySwiper2">
+                          <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                              <img src="./image/conference-halls/D/slide-1.jpg">
+                            </div>
+                          </div>
+                          <div class="swiper-pagination"></div>
+                        </div>
+
+                      </div>
+                      <div class="conference-hall__right conference-hall__right--conference scheme">
+
+                        <div class="scheme__title scheme__title--conference">Конференц-секція D</div>
+
+                        <h2 class="scheme__tabs-title">
+                          Оберіть тип розсадки:
+                        </h2>
+
+                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-home2-tab" data-bs-toggle="pill"
+                              data-bs-target="#pills-home2" type="button" role="tab" aria-controls="pills-home"
+                              aria-selected="true">театр</button>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-profile2-tab" data-bs-toggle="pill"
+                              data-bs-target="#pills-profile2" type="button" role="tab" aria-controls="pills-profile"
+                              aria-selected="false">круглий стіл</button>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-contact2-tab" data-bs-toggle="pill"
+                              data-bs-target="#pills-contact2" type="button" role="tab" aria-controls="pills-contact"
+                              aria-selected="false">клас</button>
+                          </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                          <div class="tab-pane fade show active" id="pills-home2" role="tabpanel"
+                            aria-labelledby="pills-home2-tab">
+                            <div class="scheme__content">
+                              <div class="scheme__top scheme__top--conference">
+                                <picture>
+                                  <source media="(max-width: 550px)" srcset="image/conference-halls/scheme/theatre.png"
+                                    width="160px" height="240px">
+                                  <img src="image/conference-halls/scheme/theatre.png" alt="схема залу" width="240px"
+                                    height="340px">
+                                </picture>
+                                <div class="scheme__flex-wraper-all">
+                                  <div class="scheme__flex-wraper">
+                                    <img src="image/area_white.png" alt="area" width="35px" height="35px">
+                                    <div class="scheme__count">90 м&sup2</div>
+                                  </div>
+                                  <div class="scheme__flex-wraper">
+                                    <img src="image/people.png" alt="people" width="35px" height="25px">
+                                    <div class="scheme__count">70 осіб</div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="tab-pane fade" id="pills-profile2" role="tabpanel"
+                            aria-labelledby="pills-profile2-tab">
+                            <div class="scheme__content">
+                              <div class="scheme__top scheme__top--conference">
+                                <picture>
+                                  <source media="(max-width: 550px)" srcset="image/conference-halls/scheme/round.png"
+                                    width="160px" height="240px">
+                                  <img src="image/conference-halls/scheme/round.png" alt="схема залу" width="240px"
+                                    height="340px">
+                                </picture>
+                                <div class="scheme__flex-wraper-all">
+                                  <div class="scheme__flex-wraper">
+                                    <img src="image/area_white.png" alt="area" width="35px" height="35px">
+                                    <div class="scheme__count">90 м&sup2</div>
+                                  </div>
+                                  <div class="scheme__flex-wraper">
+                                    <img src="image/people.png" alt="people" width="35px" height="25px">
+                                    <div class="scheme__count">25 осіб</div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="tab-pane fade" id="pills-contact2" role="tabpanel"
+                            aria-labelledby="pills-contact2-tab">
+                            <div class="scheme__content">
+                              <div class="scheme__top scheme__top--conference">
+                                <picture>
+                                  <source media="(max-width: 550px)" srcset="image/conference-halls/scheme/class.png"
+                                    width="160px" height="240px">
+                                  <img src="image/conference-halls/scheme/class.png" alt="схема залу" width="240px"
+                                    height="340px">
+                                </picture>
+                                <div class="scheme__flex-wraper-all">
+                                  <div class="scheme__flex-wraper">
+                                    <img src="image/area_white.png" alt="area" width="35px" height="35px">
+                                    <div class="scheme__count">90 м&sup2</div>
+                                  </div>
+                                  <div class="scheme__flex-wraper">
+                                    <img src="image/people.png" alt="people" width="35px" height="25px">
+                                    <div class="scheme__count">20 осіб</div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <a href="#" class="scheme__btn">замовити</a>
+
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="tab-pane fade" id="pills-conference-e" role="tabpanel" aria-labelledby="pills-contact-tab">
+                  <article class="conference-hall__content active">
+                    <div class="conference-hall__wrapper">
+                      <div class="conference-hall__left">
+                        <div class="swiper mySwiper2">
+                          <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                              <img src="./image/conference-halls/E/slide-1.jpg">
+                            </div>
+                          </div>
+                          <div class="swiper-pagination"></div>
+                        </div>
+
+                      </div>
+                      <div class="conference-hall__right conference-hall__right--conference scheme">
+
+                        <div class="scheme__title scheme__title--conference">Конференц-секція E</div>
+
+                        <h2 class="scheme__tabs-title">
+                          Оберіть тип розсадки:
+                        </h2>
+
+                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-home2-tab" data-bs-toggle="pill"
+                              data-bs-target="#pills-home2" type="button" role="tab" aria-controls="pills-home"
+                              aria-selected="true">театр</button>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-profile2-tab" data-bs-toggle="pill"
+                              data-bs-target="#pills-profile2" type="button" role="tab" aria-controls="pills-profile"
+                              aria-selected="false">круглий стіл</button>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-contact2-tab" data-bs-toggle="pill"
+                              data-bs-target="#pills-contact2" type="button" role="tab" aria-controls="pills-contact"
+                              aria-selected="false">клас</button>
+                          </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                          <div class="tab-pane fade show active" id="pills-home2" role="tabpanel"
+                            aria-labelledby="pills-home2-tab">
+                            <div class="scheme__content">
+                              <div class="scheme__top scheme__top--conference">
+                                <picture>
+                                  <source media="(max-width: 550px)" srcset="image/conference-halls/scheme/theatre.png"
+                                    width="160px" height="240px">
+                                  <img src="image/conference-halls/scheme/theatre.png" alt="схема залу" width="240px"
+                                    height="340px">
+                                </picture>
+                                <div class="scheme__flex-wraper-all">
+                                  <div class="scheme__flex-wraper">
+                                    <img src="image/area_white.png" alt="area" width="35px" height="35px">
+                                    <div class="scheme__count">90 м&sup2</div>
+                                  </div>
+                                  <div class="scheme__flex-wraper">
+                                    <img src="image/people.png" alt="people" width="35px" height="25px">
+                                    <div class="scheme__count">70 осіб</div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="tab-pane fade" id="pills-profile2" role="tabpanel"
+                            aria-labelledby="pills-profile2-tab">
+                            <div class="scheme__content">
+                              <div class="scheme__top scheme__top--conference">
+                                <picture>
+                                  <source media="(max-width: 550px)" srcset="image/conference-halls/scheme/round.png"
+                                    width="160px" height="240px">
+                                  <img src="image/conference-halls/scheme/round.png" alt="схема залу" width="240px"
+                                    height="340px">
+                                </picture>
+                                <div class="scheme__flex-wraper-all">
+                                  <div class="scheme__flex-wraper">
+                                    <img src="image/area_white.png" alt="area" width="35px" height="35px">
+                                    <div class="scheme__count">90 м&sup2</div>
+                                  </div>
+                                  <div class="scheme__flex-wraper">
+                                    <img src="image/people.png" alt="people" width="35px" height="25px">
+                                    <div class="scheme__count">25 осіб</div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="tab-pane fade" id="pills-contact2" role="tabpanel"
+                            aria-labelledby="pills-contact2-tab">
+                            <div class="scheme__content">
+                              <div class="scheme__top scheme__top--conference">
+                                <picture>
+                                  <source media="(max-width: 550px)" srcset="image/conference-halls/scheme/class.png"
+                                    width="160px" height="240px">
+                                  <img src="image/conference-halls/scheme/class.png" alt="схема залу" width="240px"
+                                    height="340px">
+                                </picture>
+                                <div class="scheme__flex-wraper-all">
+                                  <div class="scheme__flex-wraper">
+                                    <img src="image/area_white.png" alt="area" width="35px" height="35px">
+                                    <div class="scheme__count">90 м&sup2</div>
+                                  </div>
+                                  <div class="scheme__flex-wraper">
+                                    <img src="image/people.png" alt="people" width="35px" height="25px">
+                                    <div class="scheme__count">20 осіб</div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <a href="#" class="scheme__btn">замовити</a>
+
+
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="tab-pane fade" id="pills-conference-f" role="tabpanel" aria-labelledby="pills-contact-tab">
+                  <article class="conference-hall__content active">
+                    <div class="conference-hall__wrapper">
+                      <div class="conference-hall__left">
+                        <div class="swiper mySwiper2">
+                          <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                              <img src="./image/conference-halls/F/slide-1.jpg">
+                            </div>
+
+                          </div>
+                          <div class="swiper-pagination"></div>
+                        </div>
+
+                      </div>
+                      <div class="conference-hall__right conference-hall__right--conference scheme">
+
+                        <div class="scheme__title scheme__title--conference">Конференц-секція F</div>
+
+                        <h2 class="scheme__tabs-title">
+                          Оберіть тип розсадки:
+                        </h2>
+
+                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-home2-tab" data-bs-toggle="pill"
+                              data-bs-target="#pills-home2" type="button" role="tab" aria-controls="pills-home"
+                              aria-selected="true">театр</button>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-profile2-tab" data-bs-toggle="pill"
+                              data-bs-target="#pills-profile2" type="button" role="tab" aria-controls="pills-profile"
+                              aria-selected="false">круглий стіл</button>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-contact2-tab" data-bs-toggle="pill"
+                              data-bs-target="#pills-contact2" type="button" role="tab" aria-controls="pills-contact"
+                              aria-selected="false">клас</button>
+                          </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                          <div class="tab-pane fade show active" id="pills-home2" role="tabpanel"
+                            aria-labelledby="pills-home2-tab">
+                            <div class="scheme__content">
+                              <div class="scheme__top scheme__top--conference">
+                                <picture>
+                                  <source media="(max-width: 550px)" srcset="image/conference-halls/scheme/theatre.png"
+                                    width="160px" height="240px">
+                                  <img src="image/conference-halls/scheme/theatre.png" alt="схема залу" width="240px"
+                                    height="340px">
+                                </picture>
+                                <div class="scheme__flex-wraper-all">
+                                  <div class="scheme__flex-wraper">
+                                    <img src="image/area_white.png" alt="area" width="35px" height="35px">
+                                    <div class="scheme__count">90 м&sup2</div>
+                                  </div>
+                                  <div class="scheme__flex-wraper">
+                                    <img src="image/people.png" alt="people" width="35px" height="25px">
+                                    <div class="scheme__count">70 осіб</div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="tab-pane fade" id="pills-profile2" role="tabpanel"
+                            aria-labelledby="pills-profile2-tab">
+                            <div class="scheme__content">
+                              <div class="scheme__top scheme__top--conference">
+                                <picture>
+                                  <source media="(max-width: 550px)" srcset="image/conference-halls/scheme/round.png"
+                                    width="160px" height="240px">
+                                  <img src="image/conference-halls/scheme/round.png" alt="схема залу" width="240px"
+                                    height="340px">
+                                </picture>
+                                <div class="scheme__flex-wraper-all">
+                                  <div class="scheme__flex-wraper">
+                                    <img src="image/area_white.png" alt="area" width="35px" height="35px">
+                                    <div class="scheme__count">90 м&sup2</div>
+                                  </div>
+                                  <div class="scheme__flex-wraper">
+                                    <img src="image/people.png" alt="people" width="35px" height="25px">
+                                    <div class="scheme__count">25 осіб</div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="tab-pane fade" id="pills-contact2" role="tabpanel"
+                            aria-labelledby="pills-contact2-tab">
+                            <div class="scheme__content">
+                              <div class="scheme__top scheme__top--conference">
+                                <picture>
+                                  <source media="(max-width: 550px)" srcset="image/conference-halls/scheme/class.png"
+                                    width="160px" height="240px">
+                                  <img src="image/conference-halls/scheme/class.png" alt="схема залу" width="240px"
+                                    height="340px">
+                                </picture>
+                                <div class="scheme__flex-wraper-all">
+                                  <div class="scheme__flex-wraper">
+                                    <img src="image/area_white.png" alt="area" width="35px" height="35px">
+                                    <div class="scheme__count">90 м&sup2</div>
+                                  </div>
+                                  <div class="scheme__flex-wraper">
+                                    <img src="image/people.png" alt="people" width="35px" height="25px">
+                                    <div class="scheme__count">20 осіб</div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <a href="#" class="scheme__btn">замовити</a>
+
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="tab-pane fade" id="pills-conference-g" role="tabpanel" aria-labelledby="pills-contact-tab">
+                  <article class="conference-hall__content active">
+                    <div class="conference-hall__wrapper">
+                      <div class="conference-hall__left">
+                        <div class="swiper mySwiper2">
+                          <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                              <img src="./image/conference-halls/G/slide-1.jpg">
+                            </div>
+                            <div class="swiper-slide">
+                              <img src="./image/conference-halls/G/slide-2.jpg">
+                            </div>
+
+                          </div>
+                          <div class="swiper-pagination"></div>
+                        </div>
+                      </div>
+                      <div class="conference-hall__right conference-hall__right--conference scheme">
+
+                        <div class="scheme__title scheme__title--conference">Конференц-секція G</div>
+
+                        <h2 class="scheme__tabs-title">
+                          Оберіть тип розсадки:
+                        </h2>
+
+                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-home2-tab" data-bs-toggle="pill"
+                              data-bs-target="#pills-home2" type="button" role="tab" aria-controls="pills-home"
+                              aria-selected="true">театр</button>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-profile2-tab" data-bs-toggle="pill"
+                              data-bs-target="#pills-profile2" type="button" role="tab" aria-controls="pills-profile"
+                              aria-selected="false">круглий стіл</button>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-contact2-tab" data-bs-toggle="pill"
+                              data-bs-target="#pills-contact2" type="button" role="tab" aria-controls="pills-contact"
+                              aria-selected="false">клас</button>
+                          </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                          <div class="tab-pane fade show active" id="pills-home2" role="tabpanel"
+                            aria-labelledby="pills-home2-tab">
+                            <div class="scheme__content">
+                              <div class="scheme__top scheme__top--conference">
+                                <picture>
+                                  <source media="(max-width: 550px)" srcset="image/conference-halls/scheme/theatre.png"
+                                    width="160px" height="240px">
+                                  <img src="image/conference-halls/scheme/theatre.png" alt="схема залу" width="240px"
+                                    height="340px">
+                                </picture>
+                                <div class="scheme__flex-wraper-all">
+                                  <div class="scheme__flex-wraper">
+                                    <img src="image/area_white.png" alt="area" width="35px" height="35px">
+                                    <div class="scheme__count">90 м&sup2</div>
+                                  </div>
+                                  <div class="scheme__flex-wraper">
+                                    <img src="image/people.png" alt="people" width="35px" height="25px">
+                                    <div class="scheme__count">70 осіб</div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="tab-pane fade" id="pills-profile2" role="tabpanel"
+                            aria-labelledby="pills-profile2-tab">
+                            <div class="scheme__content">
+                              <div class="scheme__top scheme__top--conference">
+                                <picture>
+                                  <source media="(max-width: 550px)" srcset="image/conference-halls/scheme/round.png"
+                                    width="160px" height="240px">
+                                  <img src="image/conference-halls/scheme/round.png" alt="схема залу" width="240px"
+                                    height="340px">
+                                </picture>
+                                <div class="scheme__flex-wraper-all">
+                                  <div class="scheme__flex-wraper">
+                                    <img src="image/area_white.png" alt="area" width="35px" height="35px">
+                                    <div class="scheme__count">90 м&sup2</div>
+                                  </div>
+                                  <div class="scheme__flex-wraper">
+                                    <img src="image/people.png" alt="people" width="35px" height="25px">
+                                    <div class="scheme__count">25 осіб</div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="tab-pane fade" id="pills-contact2" role="tabpanel"
+                            aria-labelledby="pills-contact2-tab">
+                            <div class="scheme__content">
+                              <div class="scheme__top scheme__top--conference">
+                                <picture>
+                                  <source media="(max-width: 550px)" srcset="image/conference-halls/scheme/class.png"
+                                    width="160px" height="240px">
+                                  <img src="image/conference-halls/scheme/class.png" alt="схема залу" width="240px"
+                                    height="340px">
+                                </picture>
+                                <div class="scheme__flex-wraper-all">
+                                  <div class="scheme__flex-wraper">
+                                    <img src="image/area_white.png" alt="area" width="35px" height="35px">
+                                    <div class="scheme__count">90 м&sup2</div>
+                                  </div>
+                                  <div class="scheme__flex-wraper">
+                                    <img src="image/people.png" alt="people" width="35px" height="25px">
+                                    <div class="scheme__count">20 осіб</div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+
+
+                        <a href="#" class="scheme__btn">замовити</a>
+
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="tab-pane fade" id="pills-lounge" role="tabpanel" aria-labelledby="pills-contact-tab">
+                  <article class="conference-hall__content active">
+                    <div class="conference-hall__wrapper">
+                      <div class="conference-hall__left">
+                        <div class="swiper mySwiper2">
+                          <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                              <img src="./image/conference-halls/lounge/atrium.jpg">
+
+                            </div>
+
+
+                          </div>
+                          <div class="swiper-pagination"></div>
+                        </div>
+                      </div>
+                      <div class="conference-hall__right conference-hall__right--conference scheme">
+
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+
+          </div>
+        </div>
+        </main>
       </div>
     </section>
 
@@ -1188,7 +2233,6 @@
                 <a href="#" class="menu__menu--link">PDF</a>
                 <a href="#" class="menu__menu--link">Online</a>
               </div>
-              <!-- <img src="image/arrow.png" alt="" class="menu__arrow"> -->
             </div>
           </article>
           <article class="menu__rigth menu__rigth--conference">
@@ -1218,11 +2262,12 @@
           <div class="swiper mySwiper">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
-                <video src="./image/actions/euro-lor/video-1.mp4" loop autoplay muted controls class="swiper-slide--conference"></video>
+                <video src="./image/actions/euro-lor/video-1.mp4" loop autoplay muted controls
+                  class="swiper-slide--conference"></video>
                 <div class="swiper-slide__description desc">
                   <div class="grid--tablet">
                     <div class="desc__text grid__item--tablet-2-3 grid__item--desktop-2-6">
-                      Ювілейна Х конференція ЄВРОЛОР, яка зібрала  найбільших лідерів дитячої оториноларингології України
+                      Ювілейна Х конференція ЄВРОЛОР, яка зібрала найбільших лідерів дитячої оториноларингології України
                     </div>
                   </div>
                 </div>
@@ -1234,7 +2279,8 @@
                     <div class="desc__text grid__item--tablet-2-3 grid__item--desktop-2-6">
                       <p class="desc__title">Hotelliero</p>
                       <p>
-                        Лекційно-практичний майстер-клас від експертів для професіоналів кулінарної індустрії від компанії Hotelliero
+                        Лекційно-практичний майстер-клас від експертів для професіоналів кулінарної індустрії від
+                        компанії Hotelliero
                       </p>
                     </div>
                   </div>
@@ -1247,7 +2293,8 @@
                     <div class="desc__text grid__item--tablet-2-3 grid__item--desktop-2-6">
                       <p class="desc__title">Hotelliero</p>
                       <p>
-                        Лекційно-практичний майстер-клас від експертів для професіоналів кулінарної індустрії від компанії Hotelliero
+                        Лекційно-практичний майстер-клас від експертів для професіоналів кулінарної індустрії від
+                        компанії Hotelliero
                       </p>
                     </div>
                   </div>
@@ -1280,7 +2327,8 @@
                     <div class="desc__text grid__item--tablet-2-3 grid__item--desktop-2-6">
                       <!-- <p class="desc__title"></p> -->
                       <p>
-                        Урочисте підписання угоди про партнерство на 10 років між Банком Львів .S. International Development Finance Corporation та  USAID
+                        Урочисте підписання угоди про партнерство на 10 років між Банком Львів .S. International
+                        Development Finance Corporation та USAID
                       </p>
                     </div>
                   </div>
@@ -1293,7 +2341,8 @@
                     <div class="desc__text grid__item--tablet-2-3 grid__item--desktop-2-6">
                       <!-- <p class="desc__title"></p> -->
                       <p>
-                        Урочисте підписання угоди про партнерство на 10 років між Банком Львів .S. International Development Finance Corporation та  USAID
+                        Урочисте підписання угоди про партнерство на 10 років між Банком Львів .S. International
+                        Development Finance Corporation та USAID
                       </p>
                     </div>
                   </div>
@@ -1369,6 +2418,12 @@
         </div>
       </div>
     </section>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
     <script src="main2.js"></script>
     <script src="main.js"></script>
     <script src="main4.js"></script>

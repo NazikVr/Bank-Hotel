@@ -1387,80 +1387,44 @@
   z-index: 100;
   color: #fff;
   font-size: 15px;
-  position: absolute;
-  top: -500px;
-}
-@media (min-width: 550px) {
-  .conference-hall__bottom {
-    top: 190px;
-  }
 }
 @media (min-width: 780px) {
   .conference-hall__bottom {
     font-size: 17px;
-    top: 250px;
   }
 }
 @media (min-width: 1260px) {
   .conference-hall__bottom {
-    top: 30px;
     font-size: 20px;
   }
 }
 .conference-hall__background {
-  height: 850px;
+  height: max-content;
   width: 100%;
   background-image: url(../image/background_slider.jpg.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-}
-@media (min-width: 550px) {
-  .conference-hall__background {
-    height: 1000px;
-  }
-}
-@media (min-width: 780px) {
-  .conference-hall__background {
-    height: 1200px;
-  }
-}
-@media (min-width: 990px) {
-  .conference-hall__background {
-    height: 1350px;
-  }
-}
-@media (min-width: 1260px) {
-  .conference-hall__background {
-    height: 620px;
-  }
 }
 .conference-hall__background--wedding {
-  height: 850px;
+  height: max-content;
   width: 100%;
   background-image: url(../image/background_slider.jpg.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-@media (min-width: 550px) {
-  .conference-hall__background--wedding {
-    height: 1100px;
-  }
-}
-@media (min-width: 780px) {
-  .conference-hall__background--wedding {
-    height: 1300px;
-  }
-}
-@media (min-width: 990px) {
-  .conference-hall__background--wedding {
-    height: 1350px;
-  }
+.conference-hall__wrapper {
+  padding-bottom: 50px;
+  height: max-content;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 @media (min-width: 1260px) {
-  .conference-hall__background--wedding {
-    height: 620px;
+  .conference-hall__wrapper {
+    padding-bottom: 0;
+    flex-direction: row;
   }
 }
 .conference-hall__title {
@@ -1531,34 +1495,6 @@
 }
 .conference-hall__content {
   animation: fade 1s ease;
-}
-.conference-hall__wrapper {
-  padding-bottom: 50px;
-  height: 850px;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-}
-@media (min-width: 550px) {
-  .conference-hall__wrapper {
-    height: 1000px;
-  }
-}
-@media (min-width: 780px) {
-  .conference-hall__wrapper {
-    height: 1200px;
-  }
-}
-@media (min-width: 990px) {
-  .conference-hall__wrapper {
-    height: 1350px;
-  }
-}
-@media (min-width: 1260px) {
-  .conference-hall__wrapper {
-    flex-direction: row;
-    height: 620px;
-  }
 }
 .conference-hall__left {
   display: flex;

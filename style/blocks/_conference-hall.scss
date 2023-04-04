@@ -8,74 +8,93 @@
     z-index: 100;
     color: #fff;
     font-size: 15px;
-    position: absolute;
-    top: -500px;
 
-    @include onSmallTablet {
-      top: 190px;
-    }
 
     @include onTablet {
       font-size: 17px;
-      top: 250px;
     }
 
     @include onDesktop {
-      top: 30px;
       font-size: 20px;
     }
   }
 
   &__background {
-    height: 850px;
+    height: max-content;
     width: 100%;
     background-image: url(../image/background_slider.jpg.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 
-    @include onSmallTablet {
-      height: 1000px;
-    }
+    // @include onSmallTablet {
+    //   height: 1000px;
+    // }
 
-    @include onTablet {
-      height: 1200px;
-    }
+    // @include onTablet {
+    //   height: 1200px;
+    // }
 
-    @media (min-width: 990px) {
-      height: 1350px;
-    }
+    // @media (min-width: 990px) {
+    //   height: 1350px;
+    // }
 
-    @include onDesktop {
-      height: 620px;
-    }
+    // @include onDesktop {
+    //   height: 620px;
+    // }
 
     &--wedding {
-      height: 850px;
+      height: max-content;
       width: 100%;
       background-image: url(../image/background_slider.jpg.png);
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
   
-      @include onSmallTablet {
-        height: 1100px;
-      }
+      // @include onSmallTablet {
+      //   height: 1100px;
+      // }
   
-      @include onTablet {
-        height: 1300px;
-      }
+      // @include onTablet {
+      //   height: 1300px;
+      // }
   
-      @media (min-width: 990px) {
-        height: 1350px;
-      }
+      // @media (min-width: 990px) {
+      //   height: 1350px;
+      // }
   
-      @include onDesktop {
-        height: 620px;
-      }
+      // @include onDesktop {
+      //   height: 620px;
+      // }
     }
   }
 
+  &__wrapper {
+    padding-bottom: 50px;
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    // @include onSmallTablet {
+    //   height: 1000px;
+    // }
+
+    // @include onTablet {
+    //   height: 1200px;
+    // }
+
+    // @media (min-width: 990px) {
+    //   height: 1350px;
+    // }
+
+    @include onDesktop {
+      
+    padding-bottom: 0;
+      flex-direction: row;
+      // height: 620px;
+    }
+  }
 
   &__title {
     color: #000;
@@ -123,16 +142,10 @@
     @include onSmallTablet {
       
     margin: 0 auto 20px !important;
-      // width: 60% !important;
     }
 
     @include onTablet {
       margin: 0 auto 20px !important;
-      // width: 50% !important;
-    }
-
-    @include onDesktop {
-      // width: 25% !important;
     }
 
     &.active {
@@ -143,18 +156,6 @@
       font-weight: 700 !important;
       background-color: $brown !important;
       color: #fff !important;
-
-      @include onSmallTablet {
-        // width: 60% !important;
-      }
-
-      @include onTablet {
-        // width: 50% !important;
-      }
-
-      @include onDesktop {
-        // width: 25% !important;
-      }
     }
   }
 
@@ -164,41 +165,9 @@
 
   &__content {
     animation: fade 1s ease;
-    // position: absolute;
-    // top: 0;
-    // left: 0;
-    // right: 0;/
-    // display: none;
-
-    // &.active {
-    //   display: block;
-    // }
   }
 
-  &__wrapper {
-    padding-bottom: 50px;
-    height: 850px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
 
-    @include onSmallTablet {
-      height: 1000px;
-    }
-
-    @include onTablet {
-      height: 1200px;
-    }
-
-    @media (min-width: 990px) {
-      height: 1350px;
-    }
-
-    @include onDesktop {
-      flex-direction: row;
-      height: 620px;
-    }
-  }
 
   &__left {
     display: flex;
@@ -269,6 +238,7 @@
     height: 620px;
   }
 }
+
 .conference-hall__left .swiper-slide img {
   width: 100%;
   max-height: 220px;

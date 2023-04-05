@@ -1861,7 +1861,7 @@
   color: #fff;
 }
 .menu__left--wedding {
-  background-image: url(../image/menu-wedding/left.png);
+  background-image: url(../image/menu-wedding/wedding.jpg);
 }
 .menu__left--conference {
   background-image: url(../image/menu-conference/left.png);
@@ -1899,7 +1899,7 @@
   }
 }
 .menu__rigth--wedding {
-  background-image: url(../image/menu-wedding/right.png);
+  background-image: url(../image/menu-wedding/banquet.jpg);
 }
 .menu__rigth--conference {
   background-image: url(../image/menu-conference/right.png);

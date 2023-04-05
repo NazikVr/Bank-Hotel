@@ -547,6 +547,14 @@
 .page {
   font-family: "Josefin Sans", sans-serif;
 }
+.page__params {
+  margin-bottom: 70px;
+}
+@media (min-width: 1260px) {
+  .page__params {
+    margin-bottom: 165px;
+  }
+}
 .page__top {
   margin-bottom: 50px;
 }
@@ -561,16 +569,16 @@
   }
 }
 .page__conference-hall {
-  margin-bottom: 450px;
+  margin-bottom: 100px;
 }
 @media (min-width: 550px) {
   .page__conference-hall {
-    margin-bottom: 350px;
+    margin-bottom: 150px;
   }
 }
 @media (min-width: 1260px) {
   .page__conference-hall {
-    margin-bottom: 370px;
+    margin-bottom: 200px;
   }
 }
 .page__menu {
@@ -1379,56 +1387,50 @@
 .conference-hall__bottom {
   border-radius: 20px;
   padding: 15px 20px;
-  background-color: rgba(192, 155, 120, 0.6);
   z-index: 100;
-  color: #fff;
+  color: #000;
   font-size: 15px;
-  position: absolute;
-  top: -500px;
-}
-@media (min-width: 550px) {
-  .conference-hall__bottom {
-    top: 190px;
-  }
 }
 @media (min-width: 780px) {
   .conference-hall__bottom {
     font-size: 17px;
-    top: 250px;
   }
 }
 @media (min-width: 1260px) {
   .conference-hall__bottom {
-    top: 30px;
     font-size: 20px;
   }
 }
 .conference-hall__background {
-  height: 950px;
+  height: -moz-max-content;
+  height: max-content;
   width: 100%;
   background-image: url(../image/background_slider.jpg.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-@media (min-width: 550px) {
-  .conference-hall__background {
-    height: 1150px;
-  }
+.conference-hall__background--wedding {
+  height: -moz-max-content;
+  height: max-content;
+  width: 100%;
+  background-image: url(../image/background_slider.jpg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-@media (min-width: 780px) {
-  .conference-hall__background {
-    height: 1300px;
-  }
-}
-@media (min-width: 1100px) {
-  .conference-hall__background {
-    height: 1350px;
-  }
+.conference-hall__wrapper {
+  padding-bottom: 50px;
+  height: -moz-max-content;
+  height: max-content;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 @media (min-width: 1260px) {
-  .conference-hall__background {
-    height: 620px;
+  .conference-hall__wrapper {
+    padding-bottom: 0;
+    flex-direction: row;
   }
 }
 .conference-hall__title {
@@ -1444,19 +1446,21 @@
 .conference-hall__tabs {
   width: 100%;
   list-style: none;
-  margin-bottom: 50px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  margin-bottom: 50px !important;
 }
 @media (min-width: 780px) {
   .conference-hall__tabs {
     flex-wrap: wrap;
     height: 300px;
+    margin-bottom: 70px !important;
   }
 }
 @media (min-width: 1260px) {
   .conference-hall__tabs {
+    margin-bottom: 90px !important;
     height: -moz-max-content;
     height: max-content;
     flex-direction: row;
@@ -1464,74 +1468,40 @@
   }
 }
 .conference-hall__tab {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #fff;
-  color: #000;
-  border-radius: 33px;
-  transition: all 0.8s ease;
+  background-color: #fff !important;
+  color: #000 !important;
+  border-radius: 33px !important;
+  transition: all 0.8s ease !important;
   cursor: pointer;
-  height: 40px;
-  font-size: 20px;
-  font-weight: 500;
-  margin: 0 auto;
+  height: 40px !important;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  margin: 0 auto 20px !important;
 }
 @media (min-width: 550px) {
   .conference-hall__tab {
-    width: 60%;
+    margin: 0 auto 20px !important;
   }
 }
 @media (min-width: 780px) {
   .conference-hall__tab {
-    margin: 0 auto 20px;
-    width: 50%;
-  }
-}
-@media (min-width: 1260px) {
-  .conference-hall__tab {
-    width: 25%;
+    margin: 0 auto 20px !important;
   }
 }
 .conference-hall__tab.active {
-  width: 100%;
-  padding: 0 20px;
-  height: 40px;
-  font-size: 22px;
-  font-weight: 700;
-  background-color: #c09b78;
-  color: #fff;
-}
-@media (min-width: 550px) {
-  .conference-hall__tab.active {
-    width: 60%;
-  }
-}
-@media (min-width: 780px) {
-  .conference-hall__tab.active {
-    width: 50%;
-  }
-}
-@media (min-width: 1260px) {
-  .conference-hall__tab.active {
-    width: 25%;
-  }
+  width: 100% !important;
+  padding: 0 20px !important;
+  height: 40px !important;
+  font-size: 22px !important;
+  font-weight: 700 !important;
+  background-color: #c09b78 !important;
+  color: #fff !important;
 }
 .conference-hall__container {
   position: relative;
 }
 .conference-hall__content {
   animation: fade 1s ease;
-}
-.conference-hall__wrapper {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-}
-@media (min-width: 1260px) {
-  .conference-hall__wrapper {
-    flex-direction: row;
-  }
 }
 .conference-hall__left {
   display: flex;
@@ -1685,7 +1655,8 @@
 }
 .scheme__flex-wraper-all {
   position: relative;
-  top: -25%;
+  top: 30px;
+  align-self: start;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -1701,6 +1672,11 @@
   text-transform: uppercase;
   margin-bottom: 10px;
   text-align: center;
+}
+.scheme__title--lounge {
+  font-size: 33px;
+  text-align: center;
+  font-weight: 700;
 }
 @media (min-width: 1260px) {
   .scheme__title {
@@ -1767,6 +1743,12 @@
   font-size: 18px;
   text-align: center;
 }
+.scheme__text--lounge {
+  text-align: center;
+  font-size: 19px;
+  line-height: 70px;
+  font-weight: 550;
+}
 @media (min-width: 1260px) {
   .scheme__text {
     text-align: left;
@@ -1802,9 +1784,9 @@
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  font-size: 30px;
-  width: 80%;
-  height: 60px;
+  font-size: 20px;
+  width: 50%;
+  height: 40px;
   letter-spacing: 2px;
   font-weight: 700;
   color: #fff;
@@ -1828,17 +1810,54 @@
     margin-bottom: 10px;
   }
 }
-
+.scheme__tabs {
+  list-style: none;
+  text-transform: uppercase;
+  margin-bottom: 45px;
+  justify-content: space-between;
+}
+@media (min-width: 1260px) {
+  .scheme__tabs {
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+}
+.scheme__tab-wraper {
+  width: 29%;
+}
+.scheme__tab {
+  width: 100% !important;
+  cursor: pointer;
+  padding: 10px 20px !important;
+  border-radius: 30px !important;
+  text-transform: uppercase;
+  color: #fff !important;
+  background-color: rgba(255, 255, 255, 0) !important;
+  border: 2px solid #fff !important;
+  transition: all 0.8s ease !important;
+  font-weight: 600 !important;
+  font-size: 13px !important;
+}
+@media (min-width: 1260px) {
+  .scheme__tab {
+    padding: 5px 10px !important;
+    font-size: 10px !important;
+  }
+}
+.scheme__tab.active {
+  border: 2px solid #c09b78 !important;
+  color: #c09b78 !important;
+}
 .menu__menu {
-  width: 100%;
+  width: 80%;
   display: flex;
   justify-content: space-around;
 }
 .menu__menu--link {
   text-decoration: none;
   color: #fff;
-  background-color: rgba(192, 155, 120, 0.7);
-  width: 30%;
+  background-color: rgba(192, 155, 120, 0);
+  width: 45%;
   height: 40px;
   font-size: 20px;
   font-weight: 500;
@@ -1846,18 +1865,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #c09b78;
+  border: 2px solid #c09b78;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 .menu__menu--link:hover {
-  background-color: rgba(255, 255, 255, 0.95);
-  color: #c09b78;
+  background-color: rgba(192, 155, 120, 0.95);
+  color: #fff;
 }
 .menu__left--wedding {
   background-image: url(../image/menu-wedding/wedding.jpg);
 }
 .menu__left--conference {
-  background-image: url(../image/menu-conference/coffe.jpg);
+  background-image: url(../image/menu-conference/left.png);
 }
 .menu__left {
   background-size: cover;
@@ -1895,7 +1914,7 @@
   background-image: url(../image/menu-wedding/banquet.jpg);
 }
 .menu__rigth--conference {
-  background-image: url(../image/menu-conference/buffet-2.jpg);
+  background-image: url(../image/menu-conference/right.png);
 }
 .menu__wraper {
   display: flex;
@@ -2316,4 +2335,22 @@ body {
   zoom: 0.9;
   -moz-transform: scale(0.9);
   -moz-transform-origin: 0 0;
+}
+
+#ui-datepicker-div {
+  position: relative !important;
+  top: -1000px !important;
+  left: 100px !important;
+}
+@media (min-width: 780px) {
+  #ui-datepicker-div {
+    top: -1130px !important;
+    left: 200px !important;
+  }
+}
+@media (min-width: 1260px) {
+  #ui-datepicker-div {
+    left: 300px !important;
+    top: -850px !important;
+  }
 }

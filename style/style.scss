@@ -27,8 +27,8 @@
 @import "blocks/form";
 
 body {
-  zoom: 0.9; 
-  -moz-transform: scale(0.9); 
+  zoom: 0.9;
+  -moz-transform: scale(0.9);
   -moz-transform-origin: 0 0;
 }
 
@@ -36,17 +36,58 @@ body {
   position: relative !important;
   top: -1000px !important;
   left: 100px !important;
-  
+
   @include onTablet {
     top: -1130px !important;
     left: 200px !important;
   }
-  
+
   @include onDesktop {
     left: 300px !important;
     top: -850px !important;
   }
 }
 
+.nav__drop {
+  text-align: center;
+  @include onTablet {
+    display: none;
+  }
+}
+
+.nav__noDrop {
+  display: none;
+
+  @include onTablet {
+    display: block;
+  }
+}
+
+// .nav-pills .nav-link.active,
+// .nav-pills .show > .nav-link {
+//   text-align: center;
+//   color: #fff !important;
+//   background-color: $brown !important;
+// }
+
+.dropdown-toggle {
+  font-weight: 700 !important;
+  color: #fff !important;
+  background-color: $brown !important;
+  font-size: 1.5rem !important;
+}
+
+.dropdown-menu  .active {
+  background-color: #fff !important;
+  color: #000 !important;
+  font-weight: 500 !important;
+}
+
+.dropdown-menu .nav-item .nav-link:hover{
+  width: 100% !important;
+  border-radius: 0 !important;
+  background-color: $brown !important;
+
+}
 
 // додати меню ссилкам реальні ссилки на скачування пдф і онлайн меню

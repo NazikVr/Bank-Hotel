@@ -60,5 +60,3 @@ document.getElementById("pills-contact-tab").addEventListener("click", function(
   document.getElementById("b-2").style.display = "none";
   document.getElementById("b-3").style.display = "block";
 });
-
-

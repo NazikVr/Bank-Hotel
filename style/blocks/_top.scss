@@ -46,6 +46,7 @@
   }
 
   &__subtitle {
+    display: none;
     font-weight: 500;
     line-height: 150%;
     color: #fff;
@@ -58,6 +59,7 @@
     }
 
     @include onTablet {
+      display: block;
       font-size: 17px;
       margin-bottom: 45px;
     }
@@ -116,6 +118,7 @@
   }
 
   &__text {
+    display: none;
     font-weight: 500;
     font-size: 15px;
     line-height: 150%;
@@ -123,6 +126,7 @@
     text-align: center;
 
     @include onTablet {
+      display: block;
       font-size: 17px;
     }
 

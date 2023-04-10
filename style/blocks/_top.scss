@@ -18,6 +18,7 @@
   }
 
   @include onDesktop {
+    height: 100%;
     padding-top: 130px;
     padding-bottom: 75px;
   }
@@ -42,7 +43,7 @@
 
     @include onDesktop {
       font-size: 64px;
-      margin-bottom: 70px;
+      margin-bottom: 50px;
     }
   }
 
@@ -77,6 +78,7 @@
   }
 
   &__button {
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -86,19 +88,19 @@
     text-transform: uppercase;
     font-weight: 700;
     background-color: $brown;
-    width: 100%;
+    width: 50%;
     height: 50px;
     font-size: 15px;
-    margin-bottom: 70px;
+    margin: 0 auto 70px;
 
     @include onSmallTablet {
-    width: 70%;
-    margin: 0 auto 80px;
+      width: 400px;
+      margin: 0 auto 80px;
     }
 
     @include onTablet {
       font-size: 20px;
-      width: 50%;
+      width: 500px;
       margin: 0 auto 60px;
     }
 
@@ -106,7 +108,7 @@
       width: 374px;
       height: 65px;
       font-size: 30px;
-      margin-bottom: 80px;
+      margin-bottom: 70px;
     }
 
     border: 2px solid $brown;
@@ -131,7 +133,6 @@
       font-size: 17px;
     }
 
-
     @include onDesktop {
       width: 550px;
       text-align: left;
@@ -151,8 +152,8 @@
     text-align: center;
 
     @include onSmallTablet {
-    font-size: 35px;
-    margin-bottom: 20px;
+      font-size: 35px;
+      margin-bottom: 20px;
     }
 
     @include onTablet {

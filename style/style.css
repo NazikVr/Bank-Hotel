@@ -714,6 +714,7 @@
 }
 @media (min-width: 1260px) {
   .top {
+    height: 100%;
     padding-top: 130px;
     padding-bottom: 75px;
   }
@@ -741,7 +742,7 @@
 @media (min-width: 1260px) {
   .top__title {
     font-size: 64px;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
   }
 }
 .top__subtitle {
@@ -776,6 +777,7 @@
   font-weight: 600;
 }
 .top__button {
+  text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -785,23 +787,23 @@
   text-transform: uppercase;
   font-weight: 700;
   background-color: #c09b78;
-  width: 100%;
+  width: 50%;
   height: 50px;
   font-size: 15px;
-  margin-bottom: 70px;
+  margin: 0 auto 70px;
   border: 2px solid #c09b78;
   transition: background-color, color, 0.3s;
 }
 @media (min-width: 550px) {
   .top__button {
-    width: 70%;
+    width: 400px;
     margin: 0 auto 80px;
   }
 }
 @media (min-width: 780px) {
   .top__button {
     font-size: 20px;
-    width: 50%;
+    width: 500px;
     margin: 0 auto 60px;
   }
 }
@@ -810,7 +812,7 @@
     width: 374px;
     height: 65px;
     font-size: 30px;
-    margin-bottom: 80px;
+    margin-bottom: 70px;
   }
 }
 .top__button:hover {

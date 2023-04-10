@@ -692,8 +692,8 @@
 }
 
 .top {
-  min-height: 500px;
-  padding-top: 50px;
+  height: 665px;
+  padding-top: 175px;
   padding-bottom: 30px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../image/congress_hall-1.jpg);
   background-position: center;
@@ -702,7 +702,7 @@
 }
 @media (min-width: 550px) {
   .top {
-    padding-top: 70px;
+    padding-top: 180px;
     padding-bottom: 50px;
   }
 }
@@ -729,7 +729,7 @@
 @media (min-width: 550px) {
   .top__title {
     font-size: 45px;
-    margin-bottom: 95px;
+    margin-bottom: 70px;
   }
 }
 @media (min-width: 780px) {
@@ -795,7 +795,7 @@
 @media (min-width: 550px) {
   .top__button {
     width: 70%;
-    margin: 0 auto 90px;
+    margin: 0 auto 80px;
   }
 }
 @media (min-width: 780px) {

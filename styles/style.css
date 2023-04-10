@@ -695,8 +695,8 @@
 }
 
 .top {
-  min-height: 500px;
-  padding-top: 50px;
+  height: 665px;
+  padding-top: 175px;
   padding-bottom: 30px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../image/congress_hall-1.jpg);
   background-position: center;
@@ -705,7 +705,7 @@
 }
 @media (min-width: 550px) {
   .top {
-    padding-top: 70px;
+    padding-top: 180px;
     padding-bottom: 50px;
   }
 }
@@ -732,7 +732,7 @@
 @media (min-width: 550px) {
   .top__title {
     font-size: 45px;
-    margin-bottom: 95px;
+    margin-bottom: 70px;
   }
 }
 @media (min-width: 780px) {
@@ -798,7 +798,7 @@
 @media (min-width: 550px) {
   .top__button {
     width: 70%;
-    margin: 0 auto 90px;
+    margin: 0 auto 80px;
   }
 }
 @media (min-width: 780px) {
@@ -880,14 +880,9 @@
   position: relative;
 }
 .slider__item {
-  width: 100%;
+  width: 1160px;
   position: relative;
   text-align: center;
-}
-@media (min-width: 1260px) {
-  .slider__item {
-    width: 1160px;
-  }
 }
 .slider__item .top-wedding {
   visibility: hidden;
@@ -899,8 +894,13 @@
 }
 .slider__item img {
   position: relative;
-  width: 100%;
   height: 665px;
+  width: 100%;
+}
+@media (min-width: 1260px) {
+  .slider__item img {
+    width: 100%;
+  }
 }
 
 .slick-track {

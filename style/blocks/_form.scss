@@ -22,10 +22,10 @@
     }
 
     &--conference {
-    margin-bottom: 80px;
+      margin-bottom: 80px;
     }
   }
-  
+
   &__form {
     display: flex;
     flex-direction: column;
@@ -109,7 +109,6 @@
   &__btn {
     background-color: #fff;
     border: none;
-    
   }
 
   &__label {
@@ -161,93 +160,96 @@
       color: $brown;
     }
   }
-  
-&__container {
-    padding-left: 10px;
-    position: relative;
-    font-size: 16px;
-    font-weight: 350px;
-    width: 100%;
-    border: none;
+
+  &__container {
+    &--text {
+      line-height: 35px;
+      padding-left: 10px;
+      position: relative;
+      font-weight: 350px;
+      width: 100%;
+      border: none;
+      height: 50px;
+      appearance: none;
+      font-size: 16px !important;
+
+      @include onTablet {
+        font-size: 20px !important;
+      }
+
+      @include onDesktop {
+        font-size: 24px !important;
+      }
+
+      &:focus {
+        outline: 1px solid $brown;
+      }
+
+      &::placeholder {
+        font-weight: 300px;
+        color: #000;
+      }
+    }
+
     border-bottom: 1px solid $brown;
-    height: 50px;
-    appearance: none;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
 
-    @include onTablet {
-      font-size: 20px;
-    }
+  &__container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
 
-    @include onDesktop {
-      font-size: 24px;
-    }
+  &__checkmark {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    transform: translateY(-75%);
+  }
 
-    &:focus {
-      outline: 1px solid $brown;
-    }
+  &__container:hover input ~ .form__checkmark {
+    background-color: #ccc;
+  }
 
-    &::placeholder {
-      font-weight: 300px;
-      color: #000;
-    }
+  &__container input:checked ~ .form__checkmark {
+    background-color: $brown;
+  }
 
-  display: flex;
-  align-items: flex-start;
-  position: relative;
-  padding-left: 35px;
-  margin-bottom: 12px;
-  cursor: pointer;
-  font-size: 22px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
+  &__checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
 
-&__container input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
-}
+  &__container input:checked ~ .form__checkmark:after {
+    display: block;
+  }
 
-&__checkmark {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  height: 25px;
-  width: 25px;
-  background-color: #eee;
-  transform: translateY(-75%);
-}
-
-&__container:hover input ~ .form__checkmark {
-  background-color: #ccc;
-}
-
-&__container input:checked ~ .form__checkmark {
-  background-color: $brown;
-}
-
-&__checkmark:after {
-  content: "";
-  position: absolute;
-  display: none;
-}
-
-&__container input:checked ~ .form__checkmark:after {
-  display: block;
-}
-
-&__container .form__checkmark:after {
-  left: 9px;
-  top: 5px;
-  width: 5px;
-  height: 10px;
-  border: solid white;
-  border-width: 0 3px 3px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
+  &__container .form__checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
 }

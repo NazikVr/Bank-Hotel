@@ -692,6 +692,7 @@
 }
 
 .top {
+  min-height: 500px;
   padding-top: 50px;
   padding-bottom: 30px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../image/congress_hall-1.jpg);
@@ -723,12 +724,12 @@
   color: #fff;
   font-weight: 600;
   font-size: 35px;
-  margin-bottom: 35px;
+  margin-bottom: 70px;
 }
 @media (min-width: 550px) {
   .top__title {
     font-size: 45px;
-    margin-bottom: 45px;
+    margin-bottom: 95px;
   }
 }
 @media (min-width: 780px) {
@@ -749,8 +750,8 @@
   line-height: 150%;
   color: #fff;
   font-size: 15px;
-  margin-bottom: 30px;
   text-align: center;
+  margin-bottom: 30px;
 }
 @media (min-width: 550px) {
   .top__subtitle {
@@ -787,14 +788,14 @@
   width: 100%;
   height: 50px;
   font-size: 15px;
-  margin-bottom: 30px;
+  margin-bottom: 70px;
   border: 2px solid #c09b78;
   transition: background-color, color, 0.3s;
 }
 @media (min-width: 550px) {
   .top__button {
     width: 70%;
-    margin: 0 auto 40px;
+    margin: 0 auto 90px;
   }
 }
 @media (min-width: 780px) {
@@ -876,14 +877,9 @@
   position: relative;
 }
 .slider__item {
-  width: 100%;
+  width: 1160px;
   position: relative;
   text-align: center;
-}
-@media (min-width: 1260px) {
-  .slider__item {
-    width: 1160px;
-  }
 }
 .slider__item .top-wedding {
   visibility: hidden;
@@ -895,8 +891,13 @@
 }
 .slider__item img {
   position: relative;
-  width: 100%;
   height: 665px;
+  width: 100%;
+}
+@media (min-width: 1260px) {
+  .slider__item img {
+    width: 100%;
+  }
 }
 
 .slick-track {
@@ -2307,15 +2308,7 @@
   color: #c09b78;
 }
 .form__container {
-  padding-left: 10px;
-  position: relative;
-  font-size: 16px;
-  font-weight: 350px;
-  width: 100%;
-  border: none;
   border-bottom: 1px solid #c09b78;
-  height: 50px;
-  appearance: none;
   display: flex;
   align-items: flex-start;
   position: relative;
@@ -2328,20 +2321,31 @@
   -ms-user-select: none;
   user-select: none;
 }
+.form__container--text {
+  line-height: 35px;
+  padding-left: 10px;
+  position: relative;
+  font-weight: 350px;
+  width: 100%;
+  border: none;
+  height: 50px;
+  appearance: none;
+  font-size: 16px !important;
+}
 @media (min-width: 780px) {
-  .form__container {
-    font-size: 20px;
+  .form__container--text {
+    font-size: 20px !important;
   }
 }
 @media (min-width: 1260px) {
-  .form__container {
-    font-size: 24px;
+  .form__container--text {
+    font-size: 24px !important;
   }
 }
-.form__container:focus {
+.form__container--text:focus {
   outline: 1px solid #c09b78;
 }
-.form__container::placeholder {
+.form__container--text::placeholder {
   font-weight: 300px;
   color: #000;
 }

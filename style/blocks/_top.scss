@@ -28,21 +28,21 @@
     text-transform: uppercase;
     color: #fff;
     font-weight: 600;
-    font-size: 35px;
+    font-size: $main-title;
     margin-bottom: 70px;
 
     @include onSmallTablet {
-      font-size: 45px;
+      // font-size: 45px;
       margin-bottom: 70px;
     }
 
     @include onTablet {
-      font-size: 55px;
+      // font-size: $main-title;
       margin-bottom: 55px;
     }
 
     @include onDesktop {
-      font-size: 64px;
+      font-size: $top-title;
       margin-bottom: 50px;
     }
   }
@@ -52,7 +52,7 @@
     font-weight: 500;
     line-height: 150%;
     color: #fff;
-    font-size: 15px;
+    font-size: $sub-title;
     text-align: center;
     margin-bottom: 30px;
 
@@ -62,13 +62,13 @@
 
     @include onTablet {
       display: block;
-      font-size: 17px;
+      // font-size: 17px;
       margin-bottom: 45px;
     }
 
     @include onDesktop {
       text-align: left;
-      font-size: 20px;
+      // font-size: 20px;
       margin-bottom: 50px;
     }
 
@@ -90,7 +90,7 @@
     background-color: $brown;
     width: 50%;
     height: 50px;
-    font-size: 15px;
+    font-size: $simple-text;
     margin: 0 auto 70px;
 
     @include onSmallTablet {
@@ -99,7 +99,7 @@
     }
 
     @include onTablet {
-      font-size: 20px;
+      // font-size: 20px;
       width: 500px;
       margin: 0 auto 60px;
     }
@@ -107,7 +107,7 @@
     @include onDesktop {
       width: 374px;
       height: 65px;
-      font-size: 30px;
+      font-size: $sub-title;
       margin-bottom: 70px;
     }
 
@@ -123,20 +123,20 @@
   &__text {
     display: none;
     font-weight: 500;
-    font-size: 15px;
+    font-size: $simple-text;
     line-height: 150%;
     color: #fff;
     text-align: center;
 
     @include onTablet {
       display: block;
-      font-size: 17px;
+      // font-size: 17px;
     }
 
     @include onDesktop {
       width: 550px;
       text-align: left;
-      font-size: 20px;
+      // font-size: 20px;
     }
   }
 
@@ -148,22 +148,22 @@
     color: #fff;
     transition: all 0.8s ease;
     margin-bottom: 10px;
-    font-size: 25px;
+    font-size: $sub-title;
     text-align: center;
 
     @include onSmallTablet {
-      font-size: 35px;
+      // font-size: 35px;
       margin-bottom: 20px;
     }
 
     @include onTablet {
-      font-size: 42px;
+      // font-size: 42px;
       margin-bottom: 35px;
     }
 
     @include onDesktop {
       text-align: left;
-      font-size: 50px;
+      font-size: $main-title;
     }
 
     &:hover {

@@ -4,7 +4,7 @@
   justify-content: space-around;
 
   &__count {
-    font-size: 25px;
+    font-size: $sub-title;
     font-weight: 700;
   }
 
@@ -41,7 +41,6 @@
   }
 
   &__flex-wraper-all {
-    
     position: relative;
     top: 30px;
     align-self: start;
@@ -58,13 +57,13 @@
 
   &__title {
     font-weight: 500;
-    font-size: 27px;
+    font-size: $sub-title;
     text-transform: uppercase;
     margin-bottom: 10px;
     text-align: center;
 
     &--lounge {
-      font-size: 33px;
+      font-size: $sub-title;
       text-align: center;
       font-weight: 700;
     }
@@ -77,11 +76,11 @@
       text-align: center;
       text-transform: none;
       font-weight: 700;
-      font-size: 50px;
+      font-size: $main-title;
       // margin-bottom: 50px;
 
       @include onDesktop {
-        font-size: 37px;
+        // font-size: $sub-title;
         // margin-bottom: 0;
       }
     }
@@ -89,20 +88,20 @@
     &--wedding {
       text-align: center;
       font-weight: 700;
-      font-size: 35px;
+      font-size: $main-title;
       margin-bottom: 50px;
     }
   }
 
   &__subtitle {
     font-weight: 350;
-    font-size: 20px;
+    font-size: $sub-title;
     margin-bottom: 20px;
     text-align: center;
 
     @include onDesktop {
       text-align: left;
-      font-size: 27px;
+      // font-size: 27px;
     }
   }
 
@@ -134,29 +133,29 @@
 
   &__text {
     font-weight: 350;
-    font-size: 18px;
+    font-size: $simple-text;
     text-align: center;
     
     &--lounge {
       text-align: center;
-      font-size: 19px;
+      font-size: $simple-text;
       line-height: 70px;
       font-weight: 550;
     }
 
     @include onDesktop {
       text-align: left;
-      font-size: 22px;
+      // font-size: 22px;
     }
 
     &--conference {
-      font-size: 15px;
+      font-size: $simple-text;
       font-weight: 700;
       text-align: center;
 
       @include onTablet {
         text-align: left;
-        font-size: 17px;
+        // font-size: 17px;
       }
     }
   }
@@ -184,7 +183,7 @@
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    font-size: 20px;
+    font-size: $sub-title;
     width: 50%;
     height: 40px;
     letter-spacing: 2px;
@@ -207,7 +206,7 @@
     margin-bottom: 50px;
 
     @include onDesktop {
-      font-size: 22px;
+      font-size: $sub-title;
       margin-bottom: 10px;
     }
   }
@@ -227,6 +226,7 @@
   &__tab-wraper {
     width: 29%;
   }
+  
   &__tab { 
     width: 100% !important;
     cursor: pointer;

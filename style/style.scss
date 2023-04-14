@@ -32,21 +32,21 @@ body {
   -moz-transform-origin: 0 0;
 }
 
-#ui-datepicker-div {
-  position: relative !important;
-  top: -1000px !important;
-  left: 100px !important;
+// #ui-datepicker-div {
+//   position: relative !important;
+//   top: -1000px !important;
+//   left: 100px !important;
 
-  @include onTablet {
-    top: -1130px !important;
-    left: 200px !important;
-  }
+//   @include onTablet {
+//     top: -1130px !important;
+//     left: 200px !important;
+//   }
 
-  @include onDesktop {
-    left: 300px !important;
-    top: -850px !important;
-  }
-}
+//   @include onDesktop {
+//     left: 300px !important;
+//     top: -850px !important;
+//   }
+// }
 
 .nav__drop {
   text-align: center;

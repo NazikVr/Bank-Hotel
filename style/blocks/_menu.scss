@@ -10,7 +10,7 @@
       background-color: rgba(192,155,120, 0);
       width: 45%;
       height: 40px;
-      font-size: 20px;
+      font-size: $simple-text;
       font-weight: 500;
       border-radius: 30px;
       display: flex;
@@ -95,17 +95,17 @@
   &__text {
     text-decoration: none;
     color: #fff;
-    font-size: 20px;
+    font-size: $sub-title;
     font-weight: 900;
     margin-bottom: 40px;
     text-align: center;
 
     @include onTablet {
-      font-size: 25px;
+      // font-size: 25px;
     }
 
     @include onDesktop {
-      font-size: 36px;
+      // font-size: 36px;
       text-align-last: left;
     }
   }

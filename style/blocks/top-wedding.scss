@@ -14,36 +14,36 @@
   &__title {
     text-transform: uppercase;
     color: #fff;
-    font-size: 30px;
+    font-size: $main-title;
     margin-bottom: 70px;
     font-weight: 600;
 
     @include onSmallTablet {
-    font-size: 40px;
+    // font-size: 40px;
     }
 
     @include onTablet {
-      font-size: 50px;
+      // font-size: 50px;
     }
 
     @include onDesktop {
-      font-size: 64px;
+      font-size: $top-title;
     }
   }
 
   &__subtitle {
     max-width: 800px;
     font-weight: 500;
-    font-size: 12px;
+    font-size: $simple-text;
     color: #fff;
     margin-bottom: 30px;
 
     @include onSmallTablet {
-      font-size: 20px;
+      // font-size: 20px;
     }
 
     @include onDesktop {
-      font-size: 27px;
+      font-size: $sub-title;
     }
   }
 
@@ -55,7 +55,7 @@
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: $simple-text;
     font-weight: 700;
     background-color: $brown;
     width: 20%;
@@ -63,18 +63,18 @@
     margin-bottom: 80px;
 
     @include onSmallTablet {
-    font-size: 20px;
+    // font-size: 20px;
     width: 400px;
     }
 
     @include onTablet {
-      font-size: 25px;
+      // font-size: 25px;
       height: 65px;
       width: 500px;
     }
 
     @include onDesktop {
-      font-size: 30px;
+      font-size: $sub-title;
       width: 374px;
       height: 65px;
     }
@@ -90,7 +90,7 @@
 
   &__text {
     max-width: 950px;
-    font-size: 27px;
+    font-size: $sub-title;
     font-weight: 600;
     color: #fff;
     margin-bottom: 65px;
@@ -99,7 +99,7 @@
   &__call {
     text-decoration: none;
     font-weight: bold;
-    font-size: 30px;
+    font-size: $sub-title;
     color: #fff;
     transition: all 0.8s ease;
 

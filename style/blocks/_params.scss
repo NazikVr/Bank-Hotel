@@ -70,14 +70,15 @@
 
     &--number {
       display: block;
-      font-size: 70px;
+      // font-size: 70px;
+      font-size: $top-title;
       font-weight: 700;
       color: $brown;
     }
 
     &--text {
       font-weight: 350;
-      font-size: 25px;
+      font-size: $sub-title;
     }
   }
 
@@ -100,14 +101,14 @@
 
     &--number {
       display: block;
-      font-size: 70px;
+      font-size: $top-title;
       font-weight: 700;
       color: $brown;
     }
 
     &--text {
       font-weight: 350;
-      font-size: 25px;
+      font-size: $sub-title;
     }
   }
 
@@ -130,7 +131,7 @@
 
     &--number {
       display: block;
-      font-size: 70px;
+      font-size: $top-title;
       font-weight: 700;
       color: $brown;
       // display: block;
@@ -138,7 +139,7 @@
     }
     &--text {
       font-weight: 350;
-      font-size: 25px;
+      font-size: $sub-title;
       text-align: center;
 
       @include onDesktop {
@@ -166,13 +167,13 @@
 
     &--number {
       display: block;
-      font-size: 70px;
+      font-size: $top-title;
       font-weight: 700;
       color: $brown;
     }
     &--text {
       font-weight: 350;
-      font-size: 25px;
+      font-size: $sub-title;
     }
   }
   &__bottom {
@@ -180,6 +181,6 @@
     text-align: center;
     width: 90%;
     font-weight: 500;
-    font-size: 25px;
+    font-size: $simple-text;
   }
 }

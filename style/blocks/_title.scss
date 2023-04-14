@@ -22,15 +22,15 @@
     }
   }
   &__text {
-    font-size: 25px;
+    font-size: $main-title;
     font-weight: 600;
 
     @include onSmallTablet {
-      font-size: 33px;
+      // font-size: 33px;
     }
 
     @include onDesktop {
-      font-size: 42px;
+      // font-size: 42px;
     }
   }
   &__after-line {

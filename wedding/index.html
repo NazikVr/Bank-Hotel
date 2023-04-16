@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en" class="page">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Події</title>
+    <link rel="stylesheet" href="./../style/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script>
+      $(function () {
+        $("#datepicker").datepicker();
+      });
+    </script>
+  </head>
+
+  <body>
+    <section>
+      <div class="slider">
+        <div class="slider__item">
+          <img src="./../image/main-slider/slide-5.jpg">
+          <div class="top-wedding">
+            <div class="top-wedding__subtitle top__subtitle--wedding">
+              Вишукані локації для найщасливіших моментів:
+            </div>
+            <h1 class="top-wedding__title">ресторан safe</h1>
+            <a href="#form" class="top-wedding__button">
+              замовити подію
+            </a>
+            <a href="tel:+380682975065" class="top-wedding__call">
+              +38 068 297 50 65
+            </a>
+          </div>
+        </div>
+        <div class="slider__item">
+          <img src="./../image/main-slider/slide-1.jpg">
+          <div class="top-wedding">
+            <div class="top-wedding__subtitle top__subtitle--wedding">
+              Вишукані локації для найщасливіших моментів:
+            </div>
+            <h1 class="top-wedding__title">Art congress hall</h1>
+            <a href="#form" class="top-wedding__button">
+              замовити подію
+            </a>
+            <a href="tel:+380682975065" class="top-wedding__call">
+              +38 068 297 50 65
+            </a>
+          </div>
+        </div>
+        <div class="slider__item">
+          <img src="./../image/main-slider/slide-3.jpg">
+          <div class="top-wedding">
+            <div class="top-wedding__subtitle top__subtitle--wedding">
+              Вишукані локації для найщасливіших моментів:
+            </div>
+            <h1 class="top-wedding__title">WINE BAR RESERVE з терасою</h1>
+            <a href="#form" class="top-wedding__button">
+              замовити подію
+            </a>
+            <a href="tel:+380682975065" class="top-wedding__call">
+              +38 068 297 50 65
+            </a>
+          </div>
+        </div>
+        <div class="slider__item">
+          <img src="./../image/main-slider/slide-2.jpg">
+          <div class="top-wedding">
+            <div class="top-wedding__subtitle top__subtitle--wedding">
+              Вишукані локації для найщасливіших моментів:
+            </div>
+            <h1 class="top-wedding__title">Art congress hall</h1>
+            <a href="#form" class="top-wedding__button">
+              замовити подію
+            </a>
+            <a href="tel:+380682975065" class="top-wedding__call">
+              +38 068 297 50 65
+            </a>
+          </div>
+        </div>
+        <div class="slider__item">
+          <img src="./../image/main-slider/slide-4.jpg">
+          <div class="top-wedding">
+            <div class="top-wedding__subtitle top__subtitle--wedding">
+              Вишукані локації для найщасливіших моментів:
+            </div>
+            <h1 class="top-wedding__title">ресторан safe</h1>
+            <a href="#form" class="top-wedding__button">
+              замовити подію
+            </a>
+            <a href="tel:+380682975065" class="top-wedding__call">
+              +38 068 297 50 65
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="conference-hall page__conference-hall">
+      <div class="container">
+        <div class="conference-hall__title">
+          <div class="title params__title">
+            <div class="title__before-line"></div>
+            <h2 class="title__text">Перелік залів</h2>
+            <div class="title__after-line"></div>
+          </div>
+          <h2 class="conference-hall__subtitle" style="margin-bottom: 70px;">
+            У відповідності до стилю та масштабу святкування, Ви можете обрати одну з трьох локацій:
+            </h3>
+        </div>
+
+        <ul class="nav nav-pills mb-3 conference-hall__tabs" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button style="text-transform: uppercase;" class="nav-link active conference-hall__tab" id="pills-home-tab" data-bs-toggle="pill"
+              data-bs-target="#pills-conference" type="button" role="tab" aria-controls="pills-home"
+              aria-selected="true">Art congress hall</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button style="text-transform: uppercase;" class="nav-link conference-hall__tab" id="pills-profile-tab" data-bs-toggle="pill"
+              data-bs-target="#pills-vip" type="button" role="tab" aria-controls="pills-profile"
+              aria-selected="false">Restaurant "SAFE"</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button style="text-transform: uppercase;" class="nav-link conference-hall__tab" id="pills-contact-tab" data-bs-toggle="pill"
+              data-bs-target="#pills-conference-a" type="button" role="tab" aria-controls="pills-contact"
+              aria-selected="false">Wine bar "RESERVE"</button>
+          </li>
+
+        </ul>
+
+      </div>
+      <div class="conference-hall__background--wedding">
+        <div class="container">
+          <main class="conference-hall__container">
+
+            <div class="tab-content" id="pills-tabContent">
+
+              <div class="tab-pane fade show active" id="pills-conference" role="tabpanel"
+                aria-labelledby="pills-home-tab">
+                <article class="conference-hall__content">
+                  <div class="conference-hall__wrapper">
+                    <div class="conference-hall__left">
+                      <div class="swiper mySwiper2">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <img src="./../image/slider-scheme/art-congres-hall-1.jpg" alt="slide1">
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="./../image/slider-scheme/art-congres-hall-2.jpg" alt="slide2">
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="./../image/slider-scheme/art-congres-hall-3.jpg" alt="slide3">
+                          </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                      </div>
+
+                    </div>
+                    <div class="conference-hall__right scheme">
+
+                      <div class="scheme__title scheme__title--conference">Art congress hall</div>
+
+                      <div class="scheme__content--visible">
+                        <div class="scheme__top scheme__top--conference">
+                          <picture>
+                            <source media="(max-width: 550px)" srcset="./../image/wedding/scheme/congres.png" width="200px"
+                              height="240px">
+                            <img src="./../image/wedding/scheme/congres.png" alt="схема залу" width="240px" height="300px">
+                          </picture>
+                          <div class="scheme__flex-wraper-all">
+                            <div class="scheme__flex-wraper">
+                              <img src="./../image/area_white.png" alt="area" width="35px" height="35px">
+                              <div class="scheme__count">500 м&sup2</div>
+                            </div>
+                            <div class="scheme__flex-wraper">
+                              <img src="./../image/people.png" alt="people" width="25px" height="25px">
+                              <div class="scheme__count">110 осіб</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <a href="#form" class="scheme__btn">замовити</a>
+                    </div>
+                  </div>
+                </article>
+              </div>
+
+              <div class="tab-pane fade" id="pills-vip" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <article class="conference-hall__content">
+                  <div class="conference-hall__wrapper">
+                    <div class="conference-hall__left">
+                      <div class="swiper mySwiper2">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <img src="./../image/slider-scheme/safe-3.jpg" alt="safe_photo">
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="./../image/slider-scheme/safe-2.jpg" alt="safe_photo">
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="./../image/slider-scheme/safe-1.webp" alt="safe_photo">
+                          </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                      </div>
+                    </div>
+
+                    <div class="conference-hall__right conference-hall__right--conference scheme">
+
+                      <div class="scheme__title scheme__title--conference">Restaurant "SAFE"</div>
+
+                      <h2 class="scheme__tabs-title">
+                        Оберіть тип розсадки:
+                      </h2>
+
+                      <ul class="nav nav-pills mb-3 scheme__tabs" id="pills-tab" role="tablist">
+                        <li class="nav-item scheme__tab-wraper" role="presentation">
+                          <button class="nav-link scheme__tab active scheme__tab" id="pills-home-tab"
+                            data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab"
+                            aria-controls="pills-home" aria-selected="true">Варіант-1</button>
+                        </li>
+                        <li class="nav-item scheme__tab-wraper" role="presentation">
+                          <button class="nav-link scheme__tab" id="pills-profile-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                            aria-selected="false">Варіант-2</button>
+                        </li>
+                        <li class="nav-item scheme__tab-wraper" role="presentation">
+                          <button class="nav-link scheme__tab" id="pills-contact-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                            aria-selected="false">Варіант-3</button>
+                        </li>
+                      </ul>
+                      <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                          aria-labelledby="pills-home-tab">
+                          <div class="scheme__content">
+                            <div class="scheme__top scheme__top--conference">
+                              <picture>
+                                <source media="(max-width: 550px)" srcset="./../image/wedding/scheme/safe-var-1.png"
+                                  width="160px" height="240px">
+                                <img src="./../image/wedding/scheme/safe-var-1.png" alt="схема залу" width="240px"
+                                  height="340px">
+                              </picture>
+                              <div class="scheme__flex-wraper-all">
+                                <div class="scheme__flex-wraper">
+                                  <img src="./../image/area_white.png" alt="area" width="35px" height="35px">
+                                  <div class="scheme__count">166 м&sup2</div>
+                                </div>
+                                <div class="scheme__flex-wraper">
+                                  <img src="./../image/people.png" alt="people" width="35px" height="25px">
+                                  <div class="scheme__count">60 осіб</div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                          aria-labelledby="pills-profile-tab">
+                          <div class="scheme__content">
+                            <div class="scheme__top scheme__top--conference">
+                              <picture>
+                                <source media="(max-width: 550px)" srcset="./../image/wedding/scheme/safe-var-2.png"
+                                  width="160px" height="240px">
+                                <img src="./../image/wedding/scheme/safe-var-2.png" alt="схема залу" width="240px"
+                                  height="340px">
+                              </picture>
+                              <div class="scheme__flex-wraper-all">
+                                <div class="scheme__flex-wraper">
+                                  <img src="./../image/area_white.png" alt="area" width="35px" height="35px">
+                                  <div class="scheme__count">166 м&sup2</div>
+                                </div>
+                                <div class="scheme__flex-wraper">
+                                  <img src="./../image/people.png" alt="people" width="35px" height="25px">
+                                  <div class="scheme__count">60 осіб</div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-contact" role="tabpanel"
+                          aria-labelledby="pills-contact-tab">
+                          <div class="scheme__content">
+                            <div class="scheme__top scheme__top--conference">
+                              <picture>
+                                <source media="(max-width: 550px)" srcset="./../image/wedding/scheme/safe-var-3.png"
+                                  width="160px" height="240px">
+                                <img src="./../image/wedding/scheme/safe-var-3.png" alt="схема залу" width="240px"
+                                  height="340px">
+                              </picture>
+                              <div class="scheme__flex-wraper-all">
+                                <div class="scheme__flex-wraper">
+                                  <img src="./../image/area_white.png" alt="area" width="35px" height="35px">
+                                  <div class="scheme__count">166 м&sup2</div>
+                                </div>
+                                <div class="scheme__flex-wraper">
+                                  <img src="./../image/people.png" alt="people" width="35px" height="25px">
+                                  <div class="scheme__count">60 осіб</div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <a href="#form" class="scheme__btn">замовити</a>
+                    </div>
+                  </div>
+                </article>
+              </div>
+
+              <div class="tab-pane fade" id="pills-conference-a" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <article class="conference-hall__content">
+                  <div class="conference-hall__wrapper">
+                    <div class="conference-hall__left">
+                      <div class="swiper mySwiper2">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <img src="./../image/slider-scheme/wine-room-3.JPEG">
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="./../image/slider-scheme/wine-room-2.JPEG">
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="./../image/slider-scheme/wine-room-1.JPEG">
+                          </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                      </div>
+
+                    </div>
+
+                    <div class="conference-hall__right scheme">
+                      <div class="scheme__title scheme__title--conference">Wine bar "RESERVE"</div>
+
+                      <div class="scheme__content--visible">
+                        <div class="scheme__top scheme__top--conference">
+                          <picture>
+                            <source media="(max-width: 550px)" srcset="./../image/wedding/scheme/wine.png" width="160px"
+                              height="240px">
+                            <img src="./../image/wedding/scheme/wine.png" alt="схема залу" width="240px" height="340px">
+                          </picture>
+                          <div class="scheme__flex-wraper-all">
+                            <div class="scheme__flex-wraper">
+                              <img src="./../image/area_white.png" alt="area" width="35px" height="35px">
+                              <div class="scheme__count">31 м&sup2</div>
+                            </div>
+                            <div class="scheme__flex-wraper">
+                              <img src="./../image/people.png" alt="people" width="35px" height="25px">
+                              <div class="scheme__count">20 осіб</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <a href="#form" class="scheme__btn">замовити</a>
+                    </div>
+                  </div>
+                </article>
+              </div>
+
+            </div>
+
+          </main>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="tab-content" id="pills-tabContent" style="margin-top: 50px;">
+
+          <div class="conference-hall__bottom" id="b-1" style="display: block;">
+            <p style="margin-bottom: 10px;">
+              <strong>ART CONGRESS HALL</strong> - елегантна локація в центрі міста, площею 500м.кв, яка комфортно
+              вміщує 110 гостей Вашого свята.
+              Атмосфера елегантної класики вдало гармонує із сучасними технологіями, великий простір надає
+              можливість облаштувати зал сценою, музичним та світловим обладнанням, експериментувати з розміщенням
+              столів — тут достатньо місця і для банкету, і для танців!
+            </p>
+            <p style="margin-bottom: 10px;">А також:</p>
+            <ul style="margin-left: 20px; text-align: left;">
+              <li>
+                професійна сцена для виступів
+              </li>
+              <li>
+                сучасне звукове та світлове обладнання
+              </li>
+              <li>
+                усі можливі варіанти розміщення гостей
+              </li>
+              <li>
+                лаунж-зона
+              </li>
+              <li>
+                гримерні кімнати
+              </li>
+            </ul>
+          </div>
+
+          <div class="conference-hall__bottom" id="b-2" style="display: none;">
+            <p style="margin-bottom: 10px;">
+              <strong>РЕСТОРАН SAFE</strong> - вишукана локація для щасливих моментів. Зал ресторану SAFE вміщує 60
+              осіб.
+            </p>
+            <p>
+              Унікальний інтер'єр залу ресторану SAFE, відкрите тинькування оригінальної будівлі Австро-Угорського
+              банку, австрійські люстри та окремі зони для кенді бару та танців - додають незабутніх вражень.
+            </p>
+          </div>
+
+          <div class="conference-hall__bottom" id="b-3" style="display: none;">
+            <p style="margin-bottom: 10px;">
+              <strong>WINE BAR з терасою</strong> - справжня окраса готелю та ідеальна локація для камерних
+              святкувань.
+            </p>
+            <p>
+              Зал винної кімнати WINE BAR вміщує до 20 осіб.
+              Винна кімната з терасою на сьомому поверсі є ідеальна для затишних, камерних святкувань. Неперевершений
+              інтер’єр, камін, незабутня панорама на старе місто, та, щонайголовніше, повна ізоляція від решти готелю.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="menu page__menu">
+      <div class="container">
+        <div class="title params__title">
+          <div class="title__before-line"></div>
+          <h2 class="title__text">Меню для подій</h2>
+          <div class="title__after-line"></div>
+        </div>
+        <div class="menu__wraper">
+          <article class="menu__left menu__left--wedding">
+            <div class="menu__shadow">
+              <img src="./../image/wedding-rings.png" alt="" class="menu__icon">
+              <div class="menu__text">
+                Фуршет
+              </div>
+              <div class="menu__menu">
+                <a href="./../files/furshet-menu.pdf" class="menu__menu--link" download>PDF</a>
+                <a href="https://bankhotel.choiceqr.com/online-menu/section:benketne-ta-furshetne-menyu" class="menu__menu--link" target="_blank">Online</a>
+              </div>
+            </div>
+          </article>
+          <article class="menu__rigth menu__rigth--wedding">
+            <div class="menu__shadow">
+              <img src="./../image/buffet_menu.png" alt="" class="menu__icon">
+              <div class="menu__text">
+                Банкет
+              </div>
+              <div class="menu__menu">
+                <a href="./../files/banket-menu.pdf" class="menu__menu--link" download>PDF</a>
+                <a href="https://bankhotel.choiceqr.com/online-menu/section:benketne-ta-furshetne-menyu" class="menu__menu--link" target="_blank">Online</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="propose page__propose">
+      <div class="container">
+        <div class="title propose__title">
+          <div class="title__before-line"></div>
+          <h2 class="title__text">
+            Спеціальні пропозиції
+            <br>
+            для наречених
+          </h2>
+          <div class="title__after-line"></div>
+        </div>
+        <div class="propose__wrapper">
+          <div class="propose__one">
+            <img src="./../image/wedding-propose/propose-1.jpg" atl="wedding" class="propose__photo">
+            <div class="propose__text">
+              Доба проживання для наречених
+              <br>
+              у подарунок
+            </div>
+          </div>
+          <div class="propose__two">
+            <img src="./../image/wedding-propose/propose-3.jpg" atl="wedding" class="propose__photo">
+            <div class="propose__text">
+              Безкоштовна фотосесія на території
+              <br> готелю та 50% знижка на фотосесію в
+              <br> номерах Люкс
+            </div>
+          </div>
+          <div class="propose__three">
+            <img src="./../image/wedding-propose/propose-2.jpg" atl="wedding" class="propose__photo">
+            <div class="propose__text">
+              Спеціальна ціна на проживання
+              <br>
+              для гостей події
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects page__projects">
+      <div class="container">
+        <div class="projects__slider">
+          <div class="title projects__title">
+            <div class="title__before-line"></div>
+            <h2 class="title__text">Успішно реалізовані події</h2>
+            <div class="title__after-line"></div>
+          </div>
+          <div class="swiper mySwiper3">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <video src="./../image/video/wedding-video-1.mp4" autoplay muted loop width="640" height="360"
+                  class="swiper-slide__video"></video>
+              </div>
+              <div class="swiper-slide">
+                <video src="./../image/video/wedding-video-2.mp4" autoplay muted loop width="640" height="360"
+                  class="swiper-slide__video"></video>
+              </div>
+              <div class="swiper-slide">
+                <video src="./../image/video/wedding-video-3.mp4" autoplay muted loop width="640" height="360"
+                  class="swiper-slide__video"></video>
+              </div>
+            </div>
+            <!-- <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div> -->
+          </div>
+    </section>
+
+    <section class="form page__form" id="form">
+      <div class="container">
+        <div class="form__wrraper">
+          <div class="title form__title">
+            <div class="title__before-line"></div>
+            <h2 class="title__text">Замовити подію</h2>
+            <div class="title__after-line"></div>
+          </div>
+          <!-- <h3 class="form__subtext">Заповніть форму - отримайте базовий розрахунок вартості меню за 1 добу</h3> -->
+          <form action="#" method="post" class="form__form" style="position: relative;">
+            <div class="form__left">
+              <div class="form__date">
+                <input type="text" id="datepicker" class="form__style" placeholder="Обрати дату заходу" required
+                  id="date">
+                <label for="#date" class="form__label">
+                  <button class="form__btn">
+                    <img class="form__icon" src="./../image/calendar.png" alt="date">
+                  </button>
+                </label>
+              </div>
+              <div class="form__event">
+                <select name="event" class="form__style" required id="event">
+                  <option value="" selected disabled>Обрати тип заходу</option>
+                  <option value="wedding">Весілля</option>
+                  <option value="birthday">День народження</option>
+                  <option value="birthday">Інше святкування</option>
+                </select>
+                <label for="#event" class="form__label">
+                  <button class="form__btn">
+                    <img class="form__icon" src="./../image/presentation.png" alt="event">
+                  </button>
+                </label>
+              </div>
+              <input type="text" placeholder="Кількість осіб" class="form__quests form__style" required>
+              <label class="form__container">
+                <div class="form__container--text">
+                  Чи потрібні номери для гостей?
+                </div>
+                <input type="checkbox" value="yes">
+                <span class="form__checkmark"></span>
+              </label>
+            </div>
+            <div class="form__right">
+              <input type="text" placeholder="Контактна особа" class="form__person form__style" required>
+              <input type="tel" placeholder="Телефон" class="form__tel form__style" required>
+              <input type="email" placeholder="E-mail" class="form__email form__style" required>
+              <button type="submit" class="form__button">Замовити</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+    <script src="./../slick.min.js"></script>
+    <script src="./../main.js"></script>
+    <script src="./../main3.js"></script>
+    <script src="./../main2.js"></script>
+  </body>
+  </div>
+
+</html>

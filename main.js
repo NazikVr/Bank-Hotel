@@ -60,3 +60,24 @@ document.getElementById("pills-contact-tab").addEventListener("click", function(
   document.getElementById("b-2").style.display = "none";
   document.getElementById("b-3").style.display = "block";
 });
+
+const form = document.getElementById("myForm");
+
+form.addEventListener("submit", function(event) {
+  event.preventDefault();
+
+  const modal = document.getElementById("myModal");
+
+  const closeBtn = modal.querySelector(".modal__close");
+
+  closeBtn.addEventListener("click", function() {
+    modal.style.display = "none";
+  })
+
+  modal.style.display = "block";
+
+  window.onclick = function () {
+  modal.style.display = "none";
+  }
+})
+

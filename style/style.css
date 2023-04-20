@@ -545,63 +545,63 @@
   font-family: "Josefin Sans", sans-serif;
 }
 .page__params {
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 @media (min-width: 1260px) {
   .page__params {
-    margin-bottom: 165px;
+    margin-bottom: 80px;
   }
 }
 .page__top {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 @media (min-width: 550px) {
+  .page__top {
+    margin-bottom: 50px;
+  }
+}
+@media (min-width: 1260px) {
   .page__top {
     margin-bottom: 70px;
   }
 }
-@media (min-width: 1260px) {
-  .page__top {
-    margin-bottom: 110px;
-  }
-}
 .page__conference-hall {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 @media (min-width: 550px) {
   .page__conference-hall {
-    margin-bottom: 150px;
+    margin-bottom: 80px;
   }
 }
 @media (min-width: 1260px) {
   .page__conference-hall {
-    margin-bottom: 200px;
+    margin-bottom: 100px;
   }
 }
 .page__menu {
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 @media (min-width: 550px) {
   .page__menu {
-    margin-bottom: 100px;
+    margin-bottom: 70px;
   }
 }
 @media (min-width: 1260px) {
   .page__menu {
-    margin-bottom: 155px;
+    margin-bottom: 100px;
   }
 }
 .page__projects {
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 @media (min-width: 780px) {
   .page__projects {
-    margin-bottom: 100px;
+    margin-bottom: 80px;
   }
 }
 @media (min-width: 1260px) {
   .page__projects {
-    margin-bottom: 155px;
+    margin-bottom: 100px;
   }
 }
 .page__form {
@@ -618,16 +618,16 @@
   }
 }
 .page__propose {
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 @media (min-width: 780px) {
   .page__propose {
-    margin-bottom: 100px;
+    margin-bottom: 80px;
   }
 }
 @media (min-width: 1260px) {
   .page__propose {
-    margin-bottom: 145px;
+    margin-bottom: 100px;
   }
 }
 .page__placement-scheme {

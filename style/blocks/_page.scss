@@ -2,14 +2,38 @@
   font-family: "Josefin Sans", sans-serif;
 
   &__params {
-    margin-bottom: 70px;
+    margin-bottom: 50px;
     
     @include onDesktop {
-      margin-bottom: 165px;
+      margin-bottom: 80px;
     }
   }
 
   &__top {
+    margin-bottom: 30px;
+
+    @include onSmallTablet {
+      margin-bottom: 50px;
+    }
+
+    @include onDesktop {
+      margin-bottom: 70px;
+    }
+  }
+
+  &__conference-hall {
+    margin-bottom: 50px;
+
+    @include onSmallTablet {
+      margin-bottom: 80px;
+    }
+
+    @include onDesktop {
+      margin-bottom: 100px;
+    }
+  }
+
+  &__menu {
     margin-bottom: 50px;
 
     @include onSmallTablet {
@@ -17,43 +41,19 @@
     }
 
     @include onDesktop {
-      margin-bottom: 110px;
-    }
-  }
-
-  &__conference-hall {
-    margin-bottom: 100px;
-
-    @include onSmallTablet {
-      margin-bottom: 150px;
-    }
-
-    @include onDesktop {
-      margin-bottom: 200px;
-    }
-  }
-
-  &__menu {
-    margin-bottom: 70px;
-
-    @include onSmallTablet {
       margin-bottom: 100px;
-    }
-
-    @include onDesktop {
-      margin-bottom: 155px;
     }
   }
 
   &__projects {
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 
     @include onTablet {
-      margin-bottom: 100px;
+      margin-bottom: 80px;
     }
 
     @include onDesktop {
-      margin-bottom: 155px;
+      margin-bottom: 100px;
     }
   }
 
@@ -70,14 +70,14 @@
   }
 
   &__propose {
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 
     @include onTablet {
-      margin-bottom: 100px;
+      margin-bottom: 80px;
     }
 
     @include onDesktop {
-      margin-bottom: 145px;
+      margin-bottom: 100px;
     }
   }
 

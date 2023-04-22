@@ -1,3 +1,4 @@
+@import "./../font/futura-pt-font.css";
 * {
   margin: 0;
   padding: 0;
@@ -627,6 +628,19 @@
 }
 @media (min-width: 1260px) {
   .page__propose {
+    margin-bottom: 100px;
+  }
+}
+.page__accordion {
+  margin-bottom: 50px;
+}
+@media (min-width: 780px) {
+  .page__accordion {
+    margin-bottom: 70px;
+  }
+}
+@media (min-width: 1260px) {
+  .page__accordion {
     margin-bottom: 100px;
   }
 }
@@ -2317,7 +2331,47 @@
   transform: rotate(45deg);
 }
 
+.accordion__title {
+  font-size: 16px !important;
+  padding: 30px 0 30px 0 !important;
+}
+.accordion__cont {
+  padding: 0 0 30px 45px !important;
+}
+.accordion__cont--last {
+  border-bottom: 1px solid #ddd !important;
+}
+.accordion__list {
+  list-style-image: url("./../../image/ac-ar.png") !important;
+}
+
+.ui-state-active, .ui-state-default {
+  background-color: #fff !important;
+  color: #000 !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-bottom: none !important;
+  border-color: #ddd !important;
+}
+
+.ui-icon {
+  margin-right: 10px !important;
+  background-image: url(./../../image/ac-im-close.png) !important;
+  background-position: center !important;
+  width: 39px !important;
+  height: 39px !important;
+}
+
+.ui-icon:target {
+  background-image: url(./../../image/ac-im-open.png) !important;
+}
+
+.ui-widget-content {
+  border: none !important;
+}
+
 body {
+  font-family: "Futura PT" !important;
   zoom: 0.9;
   -moz-transform: scale(0.9);
   -moz-transform-origin: 0 0;

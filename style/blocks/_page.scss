@@ -81,6 +81,17 @@
     }
   }
 
+  &__accordion {
+    margin-bottom: 50px;
+
+    @include onTablet {
+      margin-bottom: 70px;
+    }
+
+    @include onDesktop {
+      margin-bottom: 100px;
+    }
+  }
   &__placement-scheme {
     margin: 0 0 100px;
   }

@@ -1,5 +1,5 @@
 # Bank_Hotel
 
-https://nazikvr.github.io/Bank-Hotel/conference.html
+https://weddings.bankhotel.com.ua/
 
-https://nazikvr.github.io/Bank-Hotel/wedding.html
+https://conference.bankhotel.com.ua/
